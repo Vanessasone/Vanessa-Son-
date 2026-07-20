@@ -78,18 +78,16 @@ export interface FinalizeInput {
   answers: Answers;
   prenom: string;
   email: string;
-  instagram_handle?: string;
 }
 
 // Calcule les scores, écrit la ligne finale, puis déclenche email + Notion.
-export async function finalize(
-  input: FinalizeInput,
-): Promise<Scores> {
+// L'écriture Supabase est best-effort (dégrade en silence). En revanche le
+// déclenchement de /api/resultat (email + CRM) peut lever : l'appelant
+// affiche alors le message d'erreur et propose de réessayer (spec §5).
+export async function finalize(input: FinalizeInput): Promise<Scores> {
   const scores = calculerScores(input.answers);
 
-  const ca = input.answers.q17
-    ? CA_MENSUEL_MAP[input.answers.q17]
-    : null;
+  const ca = input.answers.q17 ? CA_MENSUEL_MAP[input.answers.q17] : null;
   const taille = input.answers.q18
     ? TAILLE_EQUIPE_MAP[input.answers.q18]
     : null;
@@ -101,7 +99,6 @@ export async function finalize(
         .update({
           prenom: input.prenom,
           email: input.email,
-          instagram_handle: input.instagram_handle ?? null,
           ca_mensuel_range: ca,
           taille_equipe: taille,
           answers: input.answers,
@@ -121,22 +118,21 @@ export async function finalize(
   }
 
   // Déclenche l'email transactionnel + le webhook Notion côté serveur.
-  try {
-    await fetch('/api/resultat', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        id: input.id,
-        prenom: input.prenom,
-        email: input.email,
-        instagram_handle: input.instagram_handle ?? null,
-        ca_mensuel_range: ca,
-        taille_equipe: taille,
-        scores,
-      }),
-    });
-  } catch (e) {
-    console.warn('[audit] déclenchement /api/resultat échoué', e);
+  // Une erreur réseau / un statut non-2xx remonte à l'appelant.
+  const res = await fetch('/api/resultat', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      id: input.id,
+      prenom: input.prenom,
+      email: input.email,
+      ca_mensuel_range: ca,
+      taille_equipe: taille,
+      scores,
+    }),
+  });
+  if (!res.ok) {
+    throw new Error(`/api/resultat a répondu ${res.status}`);
   }
 
   return scores;

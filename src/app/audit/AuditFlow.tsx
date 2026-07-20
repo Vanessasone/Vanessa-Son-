@@ -27,6 +27,7 @@ export default function AuditFlow() {
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState<Answers>({});
   const [submitting, setSubmitting] = useState(false);
+  const [erreur, setErreur] = useState<string | null>(null);
 
   const sessionId = useRef<string | null>(null); // id en state, jamais dans l'URL
   const completed = useRef(false);
@@ -77,25 +78,31 @@ export default function AuditFlow() {
 
   const soumettreIdentite = async (identite: Identite) => {
     setSubmitting(true);
-    const scores = await finalize({
-      id: sessionId.current,
-      answers,
-      prenom: identite.prenom,
-      email: identite.email,
-      instagram_handle: identite.instagram_handle || undefined,
-    });
-    completed.current = true;
-
-    // Résultat transmis via sessionStorage — l'id ne transite jamais par l'URL.
+    setErreur(null);
     try {
-      sessionStorage.setItem(
-        'audit_resultat',
-        JSON.stringify({ scores, prenom: identite.prenom }),
-      );
-    } catch {
-      /* stockage indisponible : la page résultat gère l'absence */
+      const scores = await finalize({
+        id: sessionId.current,
+        answers,
+        prenom: identite.prenom,
+        email: identite.email,
+      });
+      completed.current = true;
+
+      // Résultat transmis via sessionStorage — l'id ne transite jamais par l'URL.
+      try {
+        sessionStorage.setItem(
+          'audit_resultat',
+          JSON.stringify({ scores, prenom: identite.prenom }),
+        );
+      } catch {
+        /* stockage indisponible : la page résultat gère l'absence */
+      }
+      router.push('/audit/resultat');
+    } catch (e) {
+      console.warn('[audit] soumission échouée', e);
+      setErreur('L’envoi n’a pas abouti. Vérifie ton adresse et réessaie.');
+      setSubmitting(false);
     }
-    router.push('/audit/resultat');
   };
 
   // ─── Rendu ────────────────────────────────────────────────────────────────
@@ -123,7 +130,11 @@ export default function AuditFlow() {
     return (
       <main className="screen">
         <ProgressBar ratio={1} />
-        <CaptureForm onSubmit={soumettreIdentite} submitting={submitting} />
+        <CaptureForm
+          onSubmit={soumettreIdentite}
+          submitting={submitting}
+          erreur={erreur}
+        />
       </main>
     );
   }
@@ -132,6 +143,7 @@ export default function AuditFlow() {
   return (
     <main className="screen">
       <ProgressBar ratio={index / TOTAL} />
+      <p className="progress-label">Question {index + 1} sur {TOTAL}</p>
       <QuestionScreen
         question={question}
         value={answers[question.key]}

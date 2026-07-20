@@ -5,16 +5,20 @@ import type { Axe, Scores } from '@/lib/scoring';
 import {
   NIVEAUX,
   AXE_LABELS,
-  AXE_COUT,
+  AXE_DEV,
   PROJECTION,
-  couleurScore,
-  axeLePlusRouge,
+  couleurDependance,
+  axeLePlusFaible,
+  autonomie,
+  joursDeTenue,
+  afficherJours,
+  ctaPour,
 } from '@/lib/resultats';
 
 const ORDRE_AXES: Axe[] = ['ventes', 'delivery', 'admin', 'contenu'];
-const SPRINT_URL = 'https://vanysweddings.com/sprint';
 
-// Page de résultat — structure verticale (spec §4).
+// Page de résultat — trois couches d'affichage (spec §0) : Indice de
+// Dépendance™ / Autonomie réelle / Jours de tenue.
 export default function ResultView({
   scores,
   prenom,
@@ -23,77 +27,100 @@ export default function ResultView({
   prenom?: string;
 }) {
   const niveau = NIVEAUX[scores.niveau];
-  const pire = axeLePlusRouge(scores);
+  const auto = autonomie(scores.global);
+  const jours = joursDeTenue(scores.global);
+  const montrerJours = afficherJours(scores.niveau);
+
+  const pire = axeLePlusFaible(scores);
+  const autoPire = autonomie(scores[pire]);
+  const cta = ctaPour(scores.niveau);
 
   // Anime le remplissage des barres au montage.
   const [monte, setMonte] = useState(false);
   useEffect(() => {
-    const t = setTimeout(() => setMonte(true), 60);
+    const t = setTimeout(() => setMonte(true), 80);
     return () => clearTimeout(t);
   }, []);
 
   return (
     <div className="result-container fade-in">
-      {/* 1. Score global */}
-      <div style={{ textAlign: 'center' }}>
-        <p className="eyebrow">
-          {prenom ? `${prenom}, ton audit` : 'Ton audit de dépendance'}
-        </p>
-        <div className="score-global" style={{ color: couleurScore(scores.global) }}>
-          {scores.global}
-          <span className="score-sur"> / 100</span>
-        </div>
-
-        {/* 2. Verdict */}
-        <p className="verdict">{niveau.verdict}</p>
+      {/* 0. Indice + autonomie + jours */}
+      <div className="indice-block">
+        <div className="indice">{scores.global}</div>
+        <p className="indice-label">Indice de Dépendance™</p>
+        <p className="autonomie-line">Autonomie réelle : {auto}&nbsp;%</p>
+        {montrerJours && (
+          <p className="jours-line">
+            Ton business tient environ {jours}&nbsp;jour{jours > 1 ? 's' : ''}{' '}
+            sans toi.
+          </p>
+        )}
       </div>
 
-      {/* 3. Les 4 barres d'axe */}
-      <div className="bars">
-        {ORDRE_AXES.map((axe) => (
-          <div className="bar-row" key={axe}>
-            <div className="bar-head">
-              <span>{AXE_LABELS[axe]}</span>
-              <span style={{ color: couleurScore(scores[axe]) }}>
-                {scores[axe]}
-              </span>
-            </div>
-            <div className="bar-track">
-              <div
-                className="bar-fill"
-                style={{
-                  width: monte ? `${scores[axe]}%` : '0%',
-                  background: couleurScore(scores[axe]),
-                }}
-              />
-            </div>
-          </div>
+      {/* 1. Verdict */}
+      <h1 className="verdict-titre">{niveau.titre}</h1>
+      <div className="verdict-para">
+        {niveau.paragraphes.map((p, i) => (
+          <p key={i}>{p}</p>
         ))}
       </div>
 
-      {/* 4. L'axe le plus rouge — ce que ça coûte */}
-      <div className="section">
-        <h2>Là où ça te coûte le plus : {AXE_LABELS[pire]}</h2>
-        <p>{AXE_COUT[pire]}</p>
+      {/* Les 4 axes — lecture rapide (autonomie), saturation = alarme */}
+      <div className="bars">
+        {ORDRE_AXES.map((axe) => {
+          const autoAxe = autonomie(scores[axe]);
+          return (
+            <div className="bar-row" key={axe}>
+              <div className="bar-head">
+                <span>{AXE_LABELS[axe]}</span>
+                <span style={{ color: couleurDependance(scores[axe]) }}>
+                  autonome à {autoAxe}&nbsp;%
+                </span>
+              </div>
+              <div className="bar-track">
+                <div
+                  className="bar-fill"
+                  style={{
+                    width: monte ? `${autoAxe}%` : '0%',
+                    background: couleurDependance(scores[axe]),
+                  }}
+                />
+              </div>
+            </div>
+          );
+        })}
       </div>
 
-      {/* 5. La projection */}
-      <div className="section projection">
-        <p>{PROJECTION[scores.niveau]}</p>
+      {/* 2. Développement de l'axe le plus faible */}
+      <div className="axe-dev">
+        <h2 className="axe-dev-head">
+          {AXE_LABELS[pire]} — autonome à {autoPire}&nbsp;%
+        </h2>
+        {AXE_DEV[pire][scores.niveau].map((p, i) => (
+          <p key={i}>{p}</p>
+        ))}
       </div>
 
-      {/* 6. CTA unique — LE SPRINT™ */}
+      {/* 3. Projection à 12 mois */}
+      <div className="projection-12">
+        <p className="projection-eyebrow">À ce rythme</p>
+        <p className="projection-text">{PROJECTION[scores.niveau]}</p>
+      </div>
+
+      {/* 4. CTA unique — selon le niveau */}
       <div className="cta-block">
-        <p className="kicker">La sortie</p>
-        <p className="verdict" style={{ marginTop: 0, marginBottom: '2rem' }}>
-          {scores.niveau === 'sain'
-            ? 'Ta prochaine conversation, c’est la croissance.'
-            : '30 jours pour sortir ton business de ta tête.'}
-        </p>
-        <a className="btn" href={SPRINT_URL}>
-          Découvrir LE&nbsp;SPRINT™
+        <p className="cta-accroche">{cta.accroche}</p>
+        <div className="cta-corps">
+          {cta.corps.map((p, i) => (
+            <p key={i}>{p}</p>
+          ))}
+        </div>
+        <a className="btn" href={cta.href}>
+          {cta.bouton}
         </a>
       </div>
+
+      {prenom && <p className="signature">— pour toi, {prenom}.</p>}
     </div>
   );
 }
