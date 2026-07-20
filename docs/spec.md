@@ -148,6 +148,7 @@ Points d'attention :
 Segmentation : les scores `sain` (0–34) sortent de cette séquence et basculent
 vers une séquence L'Accélération.
 
-> Seul l'email J+0 est implémenté ici (`src/app/api/resultat/route.ts` +
-> `src/lib/email.ts`). Les envois J+2 → J+9 relèvent d'une automation
-> (Resend Broadcasts / cron) branchée sur `niveau` et les flags de la table.
+> J+0 part à la fin du parcours (`src/app/api/resultat/route.ts`). La séquence
+> J+2 → J+9 est implémentée (`src/lib/sequence*.ts` +
+> `src/app/api/cron/sequence/route.ts`, planifiée par `vercel.json`). Détails
+> et étapes manuelles restantes : `docs/sequence-email.md`.

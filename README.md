@@ -49,10 +49,12 @@ src/
       page.tsx               → Suspense + AuditFlow
       AuditFlow.tsx          → orchestrateur du parcours (intro → Q1..Q18 → capture)
       resultat/page.tsx      → page de résultat (lit sessionStorage)
-    api/resultat/route.ts    → email (Resend) + Notion + marquage Supabase
+    api/resultat/route.ts    → email J+0 (Resend) + Notion + marquage Supabase
+    api/cron/sequence/route.ts → envoi quotidien de la séquence J+2 → J+9
     desinscription/          → désinscription en un clic (RGPD)
     supprimer-mes-donnees/   → droit à l'effacement (RGPD)
     politique-confidentialite/ · mentions-legales/  → pages légales (brouillon)
+    apercu-emails/           → aperçu de tous les emails (noindex, dev)
   components/
     QuestionScreen.tsx       → une question par écran (scénario / échelle)
     CaptureForm.tsx          → capture email + prénom (fin de parcours)
@@ -65,7 +67,9 @@ src/
     resultats.ts             → verdicts, couleurs, textes des axes
     persistence.ts           → insert/update Supabase côté client (progressif)
     supabase.ts              → clients anon (navigateur) + service role (serveur)
-    email.ts                 → template email J+0 (+ pied de page RGPD)
+    email.ts                 → gabarit email partagé + email J+0
+    sequence.ts              → séquence : délais, tracks, chiffrage heures (pur)
+    sequence-emails.ts       → rendu HTML des emails J+2 → J+9
     notion.ts                → push vers le CRM Notion (+ archivage RGPD)
     consentement.ts          → texte de consentement versionné
     legal.ts                 → coordonnées de l'entité (⚠️ à compléter)
@@ -73,6 +77,7 @@ supabase/migrations/         → schéma + RLS + colonnes RGPD
 docs/spec.md                 → spécification technique de référence
 docs/page-resultat.md        → copywriting de la page de résultat
 docs/rgpd.md                 → conformité RGPD + étapes manuelles restantes
+docs/sequence-email.md       → séquence email J+2 → J+9 + cron
 ```
 
 ## Scoring (résumé, voir `docs/spec.md` §3)
