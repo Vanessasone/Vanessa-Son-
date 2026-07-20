@@ -1,0 +1,378 @@
+/* AUDIT DE DÉPENDANCE™ — direction artistique (spec §4) */
+
+:root {
+  --noir: #121212;
+  --creme: #f7f4ef;
+  --sable: #d6c5b0;
+  --bronze: #bea268;
+  --taupe: #908070;
+  --creme-dim: rgba(247, 244, 239, 0.55);
+  --creme-faint: rgba(247, 244, 239, 0.14);
+  --transition: 240ms; /* transitions lentes, jamais nerveuses */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: var(--noir);
+  color: var(--creme);
+  font-family: var(--font-montserrat), 'Montserrat', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+h1,
+h2,
+h3,
+.serif {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+/* ─── Layout général — une info par écran, beaucoup de vide ────────────────── */
+.screen {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(1.5rem, 5vw, 4rem);
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* ─── Transitions lentes entre questions ──────────────────────────────────── */
+.fade-in {
+  animation: fadeIn var(--transition) ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-in {
+    animation: none;
+  }
+}
+
+/* ─── Barre de progression discrète, bronze, 2px ──────────────────────────── */
+.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: var(--bronze);
+  transition: width var(--transition) ease;
+  z-index: 10;
+}
+
+/* ─── Mise en situation / sous-titre ──────────────────────────────────────── */
+.eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  margin-bottom: 2rem;
+}
+
+.scenario {
+  font-size: clamp(1rem, 2.4vw, 1.2rem);
+  line-height: 1.7;
+  color: var(--creme-dim);
+  margin-bottom: 1.75rem;
+}
+
+.question {
+  font-family: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  font-size: clamp(1.5rem, 4vw, 2.1rem);
+  line-height: 1.3;
+  margin-bottom: 2.75rem;
+}
+
+.consigne {
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  color: var(--creme-dim);
+  margin-bottom: 2rem;
+}
+
+/* ─── Choix (scénarios / contexte) ────────────────────────────────────────── */
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  text-align: left;
+}
+
+.choice {
+  width: 100%;
+  padding: 1.05rem 1.35rem;
+  background: transparent;
+  border: 1px solid var(--creme-faint);
+  border-radius: 2px;
+  color: var(--creme);
+  font-family: inherit;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  cursor: pointer;
+  transition:
+    border-color var(--transition) ease,
+    background var(--transition) ease,
+    transform var(--transition) ease;
+}
+
+.choice:hover {
+  border-color: var(--bronze);
+  background: rgba(190, 162, 104, 0.06);
+}
+
+.choice.selected {
+  border-color: var(--bronze);
+  background: rgba(190, 162, 104, 0.12);
+}
+
+/* ─── Échelle 1–5 ─────────────────────────────────────────────────────────── */
+.echelle {
+  display: flex;
+  justify-content: center;
+  gap: clamp(0.5rem, 2.5vw, 1rem);
+  margin-bottom: 1.25rem;
+}
+
+.echelle-btn {
+  width: clamp(3rem, 12vw, 4rem);
+  height: clamp(3rem, 12vw, 4rem);
+  border-radius: 50%;
+  border: 1px solid var(--creme-faint);
+  background: transparent;
+  color: var(--creme);
+  font-family: var(--font-playfair), 'Playfair Display', serif;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition:
+    border-color var(--transition) ease,
+    background var(--transition) ease;
+}
+
+.echelle-btn:hover {
+  border-color: var(--bronze);
+}
+
+.echelle-btn.selected {
+  border-color: var(--bronze);
+  background: var(--bronze);
+  color: var(--noir);
+}
+
+.echelle-legende {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.72rem;
+  color: var(--creme-dim);
+  max-width: 340px;
+  margin: 0 auto;
+}
+
+/* ─── Boutons ─────────────────────────────────────────────────────────────── */
+.btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: var(--bronze);
+  color: var(--noir);
+  border: none;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition:
+    background var(--transition) ease,
+    transform var(--transition) ease;
+}
+
+.btn:hover {
+  background: var(--sable);
+}
+
+.btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.btn-ghost {
+  background: transparent;
+  border: 1px solid var(--creme-faint);
+  color: var(--creme);
+}
+
+.btn-ghost:hover {
+  border-color: var(--bronze);
+  background: transparent;
+}
+
+.back {
+  margin-top: 2rem;
+  background: none;
+  border: none;
+  color: var(--creme-dim);
+  font-family: inherit;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+
+.back:hover {
+  color: var(--creme);
+}
+
+/* ─── Formulaire capture ──────────────────────────────────────────────────── */
+.field {
+  margin-bottom: 1.1rem;
+  text-align: left;
+}
+
+.field label {
+  display: block;
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--creme-dim);
+  margin-bottom: 0.5rem;
+}
+
+.field input {
+  width: 100%;
+  padding: 0.9rem 1.1rem;
+  background: transparent;
+  border: 1px solid var(--creme-faint);
+  border-radius: 2px;
+  color: var(--creme);
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.field input:focus {
+  outline: none;
+  border-color: var(--bronze);
+}
+
+/* ─── Page de résultat ────────────────────────────────────────────────────── */
+.score-global {
+  font-family: var(--font-playfair), 'Playfair Display', serif;
+  font-size: clamp(5rem, 22vw, 10rem);
+  line-height: 1;
+  font-weight: 500;
+}
+
+.score-sur {
+  font-size: clamp(1.2rem, 4vw, 1.8rem);
+  color: var(--creme-dim);
+}
+
+.verdict {
+  font-family: var(--font-playfair), 'Playfair Display', serif;
+  font-size: clamp(1.4rem, 4.5vw, 2.2rem);
+  line-height: 1.4;
+  margin: 2rem auto 0;
+  max-width: 34ch;
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  margin: 3.5rem 0;
+  text-align: left;
+}
+
+.bar-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.bar-head {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+}
+
+.bar-track {
+  height: 6px;
+  background: var(--creme-faint);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 900ms ease;
+}
+
+.section {
+  margin: 3.5rem 0;
+  text-align: left;
+}
+
+.section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  color: var(--creme-dim);
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.projection {
+  border-left: 2px solid var(--bronze);
+  padding-left: 1.5rem;
+}
+
+.cta-block {
+  margin: 4rem 0 2rem;
+  text-align: center;
+}
+
+.cta-block .kicker {
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  margin-bottom: 1rem;
+}
+
+.result-container {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: clamp(3rem, 8vw, 6rem) clamp(1.5rem, 5vw, 2rem);
+}
