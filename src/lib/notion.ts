@@ -66,3 +66,25 @@ export async function pushToNotion(
     return null;
   }
 }
+
+// Archive (supprime) une page CRM — droit à l'effacement (spec RGPD §4).
+// Une suppression partielle ne vaut pas suppression : le CRM doit suivre.
+export async function archiveNotionPage(pageId: string): Promise<boolean> {
+  const apiKey = process.env.NOTION_API_KEY;
+  if (!apiKey || !pageId) return false;
+  try {
+    const res = await fetch(`https://api.notion.com/v1/pages/${pageId}`, {
+      method: 'PATCH',
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        'Notion-Version': NOTION_VERSION,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ archived: true }),
+    });
+    return res.ok;
+  } catch (e) {
+    console.warn('[audit] archiveNotionPage échoué', e);
+    return false;
+  }
+}

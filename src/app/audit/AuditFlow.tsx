@@ -85,6 +85,7 @@ export default function AuditFlow() {
         answers,
         prenom: identite.prenom,
         email: identite.email,
+        consentement: identite.consentement,
       });
       completed.current = true;
 

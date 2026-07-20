@@ -50,6 +50,9 @@ src/
       AuditFlow.tsx          → orchestrateur du parcours (intro → Q1..Q18 → capture)
       resultat/page.tsx      → page de résultat (lit sessionStorage)
     api/resultat/route.ts    → email (Resend) + Notion + marquage Supabase
+    desinscription/          → désinscription en un clic (RGPD)
+    supprimer-mes-donnees/   → droit à l'effacement (RGPD)
+    politique-confidentialite/ · mentions-legales/  → pages légales (brouillon)
   components/
     QuestionScreen.tsx       → une question par écran (scénario / échelle)
     CaptureForm.tsx          → capture email + prénom (fin de parcours)
@@ -62,10 +65,14 @@ src/
     resultats.ts             → verdicts, couleurs, textes des axes
     persistence.ts           → insert/update Supabase côté client (progressif)
     supabase.ts              → clients anon (navigateur) + service role (serveur)
-    email.ts                 → template email J+0
-    notion.ts                → push vers le CRM Notion
-supabase/migrations/         → schéma + RLS
+    email.ts                 → template email J+0 (+ pied de page RGPD)
+    notion.ts                → push vers le CRM Notion (+ archivage RGPD)
+    consentement.ts          → texte de consentement versionné
+    legal.ts                 → coordonnées de l'entité (⚠️ à compléter)
+supabase/migrations/         → schéma + RLS + colonnes RGPD
 docs/spec.md                 → spécification technique de référence
+docs/page-resultat.md        → copywriting de la page de résultat
+docs/rgpd.md                 → conformité RGPD + étapes manuelles restantes
 ```
 
 ## Scoring (résumé, voir `docs/spec.md` §3)

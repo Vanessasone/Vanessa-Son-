@@ -7,6 +7,7 @@
 import { getSupabaseBrowser } from './supabase';
 import { calculerScores, type Answers, type Scores } from './scoring';
 import { CA_MENSUEL_MAP, TAILLE_EQUIPE_MAP } from './questions';
+import { CONSENTEMENT } from './consentement';
 
 export function supabaseConfigure(): boolean {
   return Boolean(
@@ -78,6 +79,7 @@ export interface FinalizeInput {
   answers: Answers;
   prenom: string;
   email: string;
+  consentement: boolean;
 }
 
 // Calcule les scores, écrit la ligne finale, puis déclenche email + Notion.
@@ -104,6 +106,14 @@ export async function finalize(input: FinalizeInput): Promise<Scores> {
           answers: input.answers,
           progression: 18,
           completed_at: new Date().toISOString(),
+          consentement_donne: input.consentement,
+          consentement_date: input.consentement
+            ? new Date().toISOString()
+            : null,
+          consentement_texte: input.consentement ? CONSENTEMENT.texte : null,
+          consentement_version: input.consentement
+            ? CONSENTEMENT.version
+            : null,
           score_ventes: scores.ventes,
           score_delivery: scores.delivery,
           score_admin: scores.admin,

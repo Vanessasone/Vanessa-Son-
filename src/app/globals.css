@@ -282,6 +282,109 @@ h3,
   border-color: var(--bronze);
 }
 
+/* ─── Consentement RGPD ───────────────────────────────────────────────────── */
+.consent {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  text-align: left;
+  margin-top: 0.5rem;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--creme-dim);
+  cursor: pointer;
+}
+
+.consent input[type='checkbox'] {
+  margin-top: 0.15rem;
+  width: 1.05rem;
+  height: 1.05rem;
+  flex-shrink: 0;
+  accent-color: var(--bronze);
+  cursor: pointer;
+}
+
+.consent-hint {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--sable);
+  text-align: left;
+}
+
+.reassurance {
+  margin-top: 1.75rem;
+  font-size: 0.74rem;
+  line-height: 1.6;
+  color: var(--creme-dim);
+  text-align: left;
+}
+
+.legal-links {
+  margin-top: 0.75rem;
+  font-size: 0.74rem;
+  color: var(--creme-dim);
+  text-align: left;
+}
+
+.legal-links a,
+.reassurance a,
+.legal-body a {
+  color: var(--bronze);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ─── Pages légales ───────────────────────────────────────────────────────── */
+.legal-page {
+  min-height: 100dvh;
+  padding: clamp(3rem, 8vw, 6rem) clamp(1.5rem, 5vw, 2rem);
+}
+
+.legal-body {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.legal-body h1 {
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  margin-bottom: 0.5rem;
+}
+
+.legal-body h2 {
+  font-size: 1.2rem;
+  margin: 2.25rem 0 0.6rem;
+}
+
+.legal-body p,
+.legal-body li {
+  color: var(--creme-dim);
+  line-height: 1.8;
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.legal-body ul {
+  padding-left: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.legal-draft {
+  border: 1px solid var(--bronze);
+  border-radius: 2px;
+  padding: 1rem 1.25rem;
+  color: var(--sable) !important;
+  font-size: 0.85rem !important;
+  margin-bottom: 2.5rem;
+}
+
+.legal-maj {
+  font-size: 0.8rem !important;
+  color: var(--creme-dim);
+  margin-bottom: 2rem;
+}
+
 /* ─── Micro-copie parcours ────────────────────────────────────────────────── */
 .progress-label {
   position: fixed;

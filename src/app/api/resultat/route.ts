@@ -49,6 +49,21 @@ export async function POST(req: Request) {
     notion: null,
   };
 
+  // Récupère le jeton de désinscription pour le pied de page de l'email.
+  let unsubscribeToken: string | null = null;
+  if (body.id && process.env.SUPABASE_SERVICE_ROLE_KEY) {
+    try {
+      const { data } = await getSupabaseAdmin()
+        .from('audit_responses')
+        .select('unsubscribe_token')
+        .eq('id', body.id)
+        .single();
+      unsubscribeToken = data?.unsubscribe_token ?? null;
+    } catch (e) {
+      console.warn('[audit] lecture unsubscribe_token échouée', e);
+    }
+  }
+
   // ─── Email (Resend) ────────────────────────────────────────────────────────
   const resendKey = process.env.RESEND_API_KEY;
   const from = process.env.RESEND_FROM;
@@ -59,7 +74,7 @@ export async function POST(req: Request) {
         from,
         to: email,
         subject: sujetResultat(scores),
-        html: htmlResultat(prenom, scores),
+        html: htmlResultat(prenom, scores, { unsubscribeToken }),
       });
       results.email = !error;
       if (error) console.warn('[audit] Resend a échoué', error);
