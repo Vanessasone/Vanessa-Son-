@@ -1,6 +1,8 @@
-// Webhook Notion — « CRM Prospects — Toutes Marques » (spec §5).
-// Crée une page dans la base CRM avec le résultat de l'audit.
-import type { Scores } from './scoring';
+// Webhook Notion — « 🎯 CRM Prospects — Toutes Marques » (spec §5).
+// Crée une page dans le CRM existant en écrivant dans ses colonnes réelles
+// (pipeline multi-marques). Les détails du score vont dans « Notes ».
+import type { Niveau, Scores } from './scoring';
+import { AXE_LABELS, axeLePlusFaible, autonomie } from './resultats';
 
 const NOTION_VERSION = '2022-06-28';
 
@@ -13,6 +15,32 @@ export interface NotionProspect {
   scores: Scores;
 }
 
+// Niveau d'audit → température du pipeline (colonne « Statut »).
+function statutPourNiveau(niveau: Niveau): string {
+  switch (niveau) {
+    case 'critique':
+    case 'eleve':
+      return 'Chaud';
+    case 'modere':
+      return 'Tiede';
+    case 'sain':
+      return 'Froid';
+  }
+}
+
+function notesAudit(p: NotionProspect): string {
+  const s = p.scores;
+  const pire = axeLePlusFaible(s);
+  const parts = [
+    `Audit de Dépendance — Indice ${s.global}/100 (${s.niveau}), autonomie ${autonomie(s.global)} %.`,
+    `Ventes ${s.ventes} · Delivery ${s.delivery} · Admin ${s.admin} · Contenu ${s.contenu}.`,
+    `Axe le plus faible : ${AXE_LABELS[pire]}.`,
+    `CA : ${p.ca_mensuel_range ?? '—'} · Équipe : ${p.taille_equipe ?? '—'}.`,
+  ];
+  if (p.instagram_handle) parts.push(`Instagram : ${p.instagram_handle}.`);
+  return parts.join(' ');
+}
+
 // Retourne l'id de la page créée, ou null si Notion n'est pas configuré /
 // si l'appel échoue (best-effort, ne bloque pas le parcours).
 export async function pushToNotion(
@@ -22,27 +50,20 @@ export async function pushToNotion(
   const dbId = process.env.NOTION_CRM_DATABASE_ID;
   if (!apiKey || !dbId) return null;
 
+  const aujourdhui = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+
   const properties: Record<string, unknown> = {
     Nom: { title: [{ text: { content: p.prenom || p.email } }] },
-    Email: { email: p.email || null },
-    'Score global': { number: p.scores.global },
-    Niveau: { select: { name: p.scores.niveau } },
-    'Score Ventes': { number: p.scores.ventes },
-    'Score Delivery': { number: p.scores.delivery },
-    'Score Admin': { number: p.scores.admin },
-    'Score Contenu': { number: p.scores.contenu },
-    Source: { select: { name: 'Audit de Dépendance' } },
+    'Email / Instagram': { url: p.email || null },
+    Marque: { select: { name: 'vanessasone.com' } },
+    Source: { select: { name: 'Audit Dépendance' } },
+    Statut: { select: { name: statutPourNiveau(p.scores.niveau) } },
+    Notes: { rich_text: [{ text: { content: notesAudit(p) } }] },
+    'Dernier contact': { date: { start: aujourdhui } },
   };
-  if (p.instagram_handle) {
-    properties.Instagram = {
-      rich_text: [{ text: { content: p.instagram_handle } }],
-    };
-  }
-  if (p.ca_mensuel_range) {
-    properties['CA mensuel'] = { select: { name: p.ca_mensuel_range } };
-  }
-  if (p.taille_equipe) {
-    properties['Taille équipe'] = { select: { name: p.taille_equipe } };
+  // Les scores sains basculent vers L'Accélération.
+  if (p.scores.niveau === 'sain') {
+    properties['Offre visée'] = { select: { name: 'L Acceleration' } };
   }
 
   try {

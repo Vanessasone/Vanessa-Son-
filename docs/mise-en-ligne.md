@@ -41,32 +41,31 @@ Tu auras besoin de 4 comptes gratuits : **Supabase**, **Resend**, **Notion**,
 
 ## 3. Notion (CRM)
 
-1. Va sur notion.so/my-integrations → **New integration** → copie le secret →
-   `NOTION_API_KEY`.
-2. Crée (ou ouvre) ta base **CRM Prospects**. Elle doit contenir ces colonnes,
-   **avec exactement ces noms et ces types** :
+Le CRM existe déjà : **🎯 CRM Prospects — Toutes Marques**. Le code a été adapté
+pour écrire dans ses colonnes réelles (Nom, Email / Instagram, Marque, Source,
+Statut, Offre visée, Notes, Dernier contact — les scores vont dans *Notes*).
+Rien à créer, il suffit d'autoriser l'app à écrire dedans.
 
-   | Nom de colonne | Type |
-   |---|---|
-   | Nom | Title |
-   | Email | Email |
-   | Score global | Number |
-   | Niveau | Select |
-   | Score Ventes | Number |
-   | Score Delivery | Number |
-   | Score Admin | Number |
-   | Score Contenu | Number |
-   | Source | Select |
-   | Instagram | Text |
-   | CA mensuel | Select |
-   | Taille équipe | Select |
+1. Va sur notion.so/my-integrations → **New integration** (type *Internal*) →
+   copie le secret (`ntn_...` ou `secret_...`) → `NOTION_API_KEY`.
+2. Ouvre le CRM **🎯 CRM Prospects — Toutes Marques** → bouton **⋯** (en haut à
+   droite) → **Connections** → **Connect to** → choisis ton intégration.
+   (C'est ce qui autorise l'app à créer des fiches.)
+3. `NOTION_CRM_DATABASE_ID` = **`ebdcb5bcae2e4508b8f482eb0917871e`**
+   (déjà identifié — c'est l'ID de ce CRM).
 
-3. En haut à droite de la base → menu **⋯ → Connections** → ajoute ton
-   intégration (pour l'autoriser à écrire).
-4. Copie l'**ID de la base** : il est dans l'URL de la base, la suite de 32
-   caractères → `NOTION_CRM_DATABASE_ID`.
+Mapping appliqué à chaque lead d'audit :
 
-> Si un nom de colonne diffère, dis-le-moi : j'ajuste le code (`src/lib/notion.ts`).
+| Colonne CRM | Valeur écrite |
+|---|---|
+| Nom | prénom |
+| Email / Instagram | email |
+| Marque | `vanessasone.com` |
+| Source | `Audit Dépendance` (option créée automatiquement) |
+| Statut | critique/élevé → Chaud · modéré → Tiede · sain → Froid |
+| Offre visée | `L Acceleration` si score sain |
+| Notes | Indice, autonomie, les 4 scores, axe faible, CA, équipe |
+| Dernier contact | date de l'audit |
 
 ---
 
