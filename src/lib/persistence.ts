@@ -23,18 +23,23 @@ export async function startSession(opts: {
 }): Promise<string | null> {
   if (!supabaseConfigure()) return null;
   try {
-    const { data, error } = await getSupabaseBrowser()
-      .from('audit_responses')
-      .insert({
-        source: opts.source ?? 'manychat',
-        utm_campaign: opts.utm_campaign ?? null,
-        answers: {},
-        progression: 0,
-      })
-      .select('id')
-      .single();
+    // L'id est généré côté client : la RLS n'autorise pas le rôle anon à
+    // relire une ligne (pas de policy SELECT anon), donc on ne peut pas faire
+    // .insert().select(). On fournit l'id et on ne relit rien.
+    const id =
+      typeof crypto !== 'undefined' && 'randomUUID' in crypto
+        ? crypto.randomUUID()
+        : undefined;
+    if (!id) return null;
+    const { error } = await getSupabaseBrowser().from('audit_responses').insert({
+      id,
+      source: opts.source ?? 'manychat',
+      utm_campaign: opts.utm_campaign ?? null,
+      answers: {},
+      progression: 0,
+    });
     if (error) throw error;
-    return data?.id ?? null;
+    return id;
   } catch (e) {
     console.warn('[audit] startSession échoué, on continue sans persistance', e);
     return null;
