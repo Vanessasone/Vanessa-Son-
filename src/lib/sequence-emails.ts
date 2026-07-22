@@ -3,9 +3,11 @@ import type { Axe, Scores } from './scoring';
 import { AXE_LABELS, AXE_DEV, axeLePlusFaible, autonomie } from './resultats';
 import { emailDoc, pRow, hRow, btnRow, S, type EmailOpts } from './email';
 import { coutHeures, type Step } from './sequence';
+import { siteUrl } from './legal';
 
-const SPRINT_URL = 'https://vanysweddings.com/sprint';
-const ACCELERATION_URL = 'https://vanysweddings.com/acceleration';
+// Les CTA des emails renvoient vers le tunnel d'éligibilité sur le site.
+const SPRINT_URL = `${siteUrl()}/eligibilite`;
+const ACCELERATION_URL = `${siteUrl()}/eligibilite`;
 
 export interface SequenceInput {
   prenom: string;

@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { QUESTIONS } from '@/lib/questions';
+import { QUESTIONS, CA_MENSUEL_MAP } from '@/lib/questions';
 import type { Answers } from '@/lib/scoring';
 import QuestionScreen from '@/components/QuestionScreen';
 import CaptureForm, { type Identite } from '@/components/CaptureForm';
@@ -93,7 +93,11 @@ export default function AuditFlow() {
       try {
         sessionStorage.setItem(
           'audit_resultat',
-          JSON.stringify({ scores, prenom: identite.prenom }),
+          JSON.stringify({
+            scores,
+            prenom: identite.prenom,
+            ca: answers.q17 ? CA_MENSUEL_MAP[answers.q17] : null,
+          }),
         );
       } catch {
         /* stockage indisponible : la page résultat gère l'absence */

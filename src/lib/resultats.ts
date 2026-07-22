@@ -182,8 +182,10 @@ export interface CtaMeta {
   href: string;
 }
 
-const SPRINT_URL = 'https://vanysweddings.com/sprint';
-const ACCELERATION_URL = 'https://vanysweddings.com/acceleration';
+// Toutes les CTA passent par le tunnel d'éligibilité, qui oriente ensuite vers
+// LE SPRINT™ ou le coaching et affiche le lien de prise de rendez-vous.
+const SPRINT_URL = '/eligibilite';
+const ACCELERATION_URL = '/eligibilite';
 
 export const CTA_SPRINT: CtaMeta = {
   accroche:
