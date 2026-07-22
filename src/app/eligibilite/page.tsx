@@ -1,9 +1,16 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import type { Scores } from '@/lib/scoring';
-import { routerOffre, OFFRES, BOOKING, type Offre } from '@/lib/eligibilite';
+import {
+  QUESTIONS,
+  routerOffre,
+  OFFRES,
+  BOOKING,
+  type Offre,
+} from '@/lib/eligibilite';
+import ProgressBar from '@/components/ProgressBar';
 
 interface Stored {
   scores: Scores;
@@ -11,25 +18,19 @@ interface Stored {
   ca?: string | null;
 }
 
-// Mini-candidature après le résultat, puis orientation (Sprint vs coaching)
-// et lien de prise de rendez-vous.
-const Q1 = [
-  { v: 'moins-1an', label: 'Moins d’un an' },
-  { v: '1-3ans', label: 'Entre 1 et 3 ans' },
-  { v: 'plus-3ans', label: 'Plus de 3 ans' },
-];
-const Q2 = [
-  { v: 'oui', label: 'Oui, je veux avancer maintenant' },
-  { v: 'renseigne', label: 'Je me renseigne pour l’instant' },
-];
+const TOTAL = QUESTIONS.length;
+const AVANCE_MS = 260;
 
+// Mini-consultation de closing : une question par écran, puis recommandation
+// personnalisée (Sprint vs coaching) et lien de prise de rendez-vous.
 export default function EligibilitePage() {
   const router = useRouter();
   const [data, setData] = useState<Stored | null>(null);
   const [pret, setPret] = useState(false);
-  const [duree, setDuree] = useState<string | null>(null);
-  const [invest, setInvest] = useState<string | null>(null);
-  const [envoye, setEnvoye] = useState(false);
+  const [index, setIndex] = useState(0);
+  const [reponses, setReponses] = useState<Record<string, string>>({});
+  const [fini, setFini] = useState(false);
+  const timer = useRef<ReturnType<typeof setTimeout>>();
 
   useEffect(() => {
     try {
@@ -45,6 +46,8 @@ export default function EligibilitePage() {
     if (pret && !data) router.replace('/audit');
   }, [pret, data, router]);
 
+  useEffect(() => () => clearTimeout(timer.current), []);
+
   if (!data) {
     return (
       <main className="screen">
@@ -53,20 +56,18 @@ export default function EligibilitePage() {
     );
   }
 
-  // Résultat de l'orientation
-  if (envoye) {
-    const offre: Offre = routerOffre(data.ca, data.scores.niveau);
+  // ─── Recommandation finale ──────────────────────────────────────────────────
+  if (fini) {
+    const caChoisi = reponses.ca ?? data.ca ?? null;
+    const offre: Offre = routerOffre(caChoisi, data.scores.niveau);
     const meta = OFFRES[offre];
     const lien = BOOKING[offre];
     return (
       <main className="screen">
         <div className="container fade-in">
-          <p className="eyebrow">Ta prochaine étape</p>
-          <h1 className="question">{meta.titre}</h1>
-          <p className="scenario" style={{ marginBottom: '1.5rem' }}>
-            {meta.accroche}
-          </p>
-          <div className="axe-dev" style={{ margin: '0 auto 2rem' }}>
+          <p className="eyebrow">Ta recommandation</p>
+          <h1 className="verdict-titre">{meta.titre}</h1>
+          <div className="axe-dev" style={{ margin: '1.5rem auto 2rem' }}>
             {meta.corps.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
@@ -77,7 +78,7 @@ export default function EligibilitePage() {
             </a>
           ) : (
             <p className="form-error">
-              (Lien de rendez-vous à configurer — voir src/lib/eligibilite.ts)
+              (Lien de rendez-vous à configurer — src/lib/eligibilite.ts)
             </p>
           )}
         </div>
@@ -85,57 +86,51 @@ export default function EligibilitePage() {
     );
   }
 
-  // Mini-candidature
-  const complet = duree && invest;
+  const q = QUESTIONS[index];
+  const repondre = (v: string) => {
+    setReponses((r) => ({ ...r, [q.key]: v }));
+    clearTimeout(timer.current);
+    timer.current = setTimeout(() => {
+      if (index + 1 < TOTAL) setIndex(index + 1);
+      else setFini(true);
+    }, AVANCE_MS);
+  };
+
   return (
     <main className="screen">
-      <div className="container fade-in">
-        <p className="eyebrow">Dernière étape</p>
-        <h1 className="question">
-          {data.prenom ? `${data.prenom}, ` : ''}deux questions avant ton rendez-vous.
-        </h1>
-
-        <p className="scenario" style={{ marginTop: '1.5rem' }}>
-          Depuis combien de temps ton activité tourne ?
-        </p>
-        <div className="choices">
-          {Q1.map((o) => (
+      <ProgressBar ratio={index / TOTAL} />
+      <p className="progress-label">
+        Question {index + 1} sur {TOTAL}
+      </p>
+      <div className="container fade-in" key={q.key}>
+        {q.sousTitre && <p className="scenario">{q.sousTitre}</p>}
+        <p className="question">{q.prompt}</p>
+        <div className="choices" role="radiogroup" aria-label={q.prompt}>
+          {q.choices.map((c) => (
             <button
-              key={o.v}
+              key={c.v}
               type="button"
-              className={`choice${duree === o.v ? ' selected' : ''}`}
-              onClick={() => setDuree(o.v)}
+              role="radio"
+              aria-checked={reponses[q.key] === c.v}
+              className={`choice${reponses[q.key] === c.v ? ' selected' : ''}`}
+              onClick={() => repondre(c.v)}
             >
-              {o.label}
+              {c.label}
             </button>
           ))}
         </div>
-
-        <p className="scenario" style={{ marginTop: '2rem' }}>
-          Tu es prête à investir pour régler ça dans les 30 prochains jours ?
-        </p>
-        <div className="choices">
-          {Q2.map((o) => (
-            <button
-              key={o.v}
-              type="button"
-              className={`choice${invest === o.v ? ' selected' : ''}`}
-              onClick={() => setInvest(o.v)}
-            >
-              {o.label}
-            </button>
-          ))}
-        </div>
-
-        <button
-          className="btn"
-          style={{ marginTop: '2rem' }}
-          disabled={!complet}
-          onClick={() => setEnvoye(true)}
-        >
-          Voir ma prochaine étape
-        </button>
       </div>
+      {index > 0 && (
+        <button
+          className="back"
+          onClick={() => {
+            clearTimeout(timer.current);
+            setIndex(index - 1);
+          }}
+        >
+          ← Retour
+        </button>
+      )}
     </main>
   );
 }
