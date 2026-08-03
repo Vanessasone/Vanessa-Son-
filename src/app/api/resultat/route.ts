@@ -65,8 +65,8 @@ export async function POST(req: Request) {
   }
 
   // ─── Email (Resend) ────────────────────────────────────────────────────────
-  const resendKey = process.env.RESEND_API_KEY;
-  const from = process.env.RESEND_FROM;
+  const resendKey = process.env.RESEND_API_KEY?.trim();
+  const from = process.env.RESEND_FROM?.trim();
   if (resendKey && from) {
     try {
       const resend = new Resend(resendKey);

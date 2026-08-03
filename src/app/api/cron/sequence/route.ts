@@ -74,7 +74,7 @@ export async function GET(req: Request) {
 
   const dry = new URL(req.url).searchParams.get('dry') === '1';
   const resendKey = process.env.RESEND_API_KEY;
-  const from = process.env.RESEND_FROM;
+  const from = process.env.RESEND_FROM?.trim();
   const resend = resendKey ? new Resend(resendKey) : null;
 
   const admin = getSupabaseAdmin();
