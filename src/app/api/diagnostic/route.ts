@@ -29,6 +29,8 @@ export async function GET() {
 
   // Test 1 — insertion via la clé ANON (exactement ce que fait le navigateur).
   let test_anon = 'non exécuté (URL ou clé anon manquante)';
+  // Test 1b — mise à jour (le « remplissage » prénom/email/scores/consentement).
+  let test_anon_update = 'non exécuté';
   if (url && anonKey) {
     try {
       const anon = createClient(url, anonKey, { auth: { persistSession: false } });
@@ -37,6 +39,22 @@ export async function GET() {
         .from('audit_responses')
         .insert({ id, source: 'diagnostic-anon' });
       test_anon = error ? `ERREUR: ${error.message}` : `OK (ligne ${id} créée)`;
+      if (!error) {
+        // Teste des colonnes des 3 migrations (0001 scores, 0002 consentement).
+        const { error: upErr } = await anon
+          .from('audit_responses')
+          .update({
+            prenom: 'diag',
+            email: 'diag@test.fr',
+            completed_at: new Date().toISOString(),
+            score_global: 50,
+            niveau: 'modere',
+            consentement_donne: true,
+            email_j2_envoye: false,
+          })
+          .eq('id', id);
+        test_anon_update = upErr ? `ERREUR: ${upErr.message}` : 'OK';
+      }
     } catch (e) {
       test_anon = `EXCEPTION: ${e instanceof Error ? e.message : String(e)}`;
     }
@@ -59,5 +77,5 @@ export async function GET() {
     }
   }
 
-  return NextResponse.json({ version: 'v3', env, test_anon, test_service });
+  return NextResponse.json({ version: 'v4', env, test_anon, test_anon_update, test_service });
 }
