@@ -59,5 +59,5 @@ export async function GET() {
     }
   }
 
-  return NextResponse.json({ env, test_anon, test_service });
+  return NextResponse.json({ version: 'v2', env, test_anon, test_service });
 }
