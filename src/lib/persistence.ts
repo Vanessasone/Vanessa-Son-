@@ -1,19 +1,25 @@
-// Persistance côté navigateur (spec §5 — insertion progressive).
-// Insert dès Q1, update à chaque réponse. L'id reste en mémoire, jamais dans
-// l'URL. Toutes les opérations dégradent proprement si Supabase n'est pas
-// configuré : le parcours et le score fonctionnent quand même.
+// Persistance du parcours (spec §5). Les écritures passent désormais par des
+// routes serveur (service_role) : la RLS bloquait silencieusement les mises à
+// jour côté navigateur (anon peut insérer mais pas relire/mettre à jour sa
+// ligne). L'id reste en state React, jamais dans l'URL.
 'use client';
 
-import { getSupabaseBrowser } from './supabase';
 import { calculerScores, type Answers, type Scores } from './scoring';
 import { CA_MENSUEL_MAP, TAILLE_EQUIPE_MAP } from './questions';
-import { CONSENTEMENT } from './consentement';
 
-export function supabaseConfigure(): boolean {
-  return Boolean(
-    process.env.NEXT_PUBLIC_SUPABASE_URL &&
-      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
-  );
+async function postAudit(payload: Record<string, unknown>): Promise<boolean> {
+  try {
+    const res = await fetch('/api/audit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    const json = (await res.json().catch(() => ({}))) as { ok?: boolean };
+    return res.ok && json.ok === true;
+  } catch (e) {
+    console.warn('[audit] postAudit échoué', payload.action, e);
+    return false;
+  }
 }
 
 // Insert de la ligne au démarrage → renvoie l'id de session (ou null).
@@ -21,29 +27,18 @@ export async function startSession(opts: {
   source?: string;
   utm_campaign?: string;
 }): Promise<string | null> {
-  if (!supabaseConfigure()) return null;
-  try {
-    // L'id est généré côté client : la RLS n'autorise pas le rôle anon à
-    // relire une ligne (pas de policy SELECT anon), donc on ne peut pas faire
-    // .insert().select(). On fournit l'id et on ne relit rien.
-    const id =
-      typeof crypto !== 'undefined' && 'randomUUID' in crypto
-        ? crypto.randomUUID()
-        : undefined;
-    if (!id) return null;
-    const { error } = await getSupabaseBrowser().from('audit_responses').insert({
-      id,
-      source: opts.source ?? 'manychat',
-      utm_campaign: opts.utm_campaign ?? null,
-      answers: {},
-      progression: 0,
-    });
-    if (error) throw error;
-    return id;
-  } catch (e) {
-    console.warn('[audit] startSession échoué, on continue sans persistance', e);
-    return null;
-  }
+  const id =
+    typeof crypto !== 'undefined' && 'randomUUID' in crypto
+      ? crypto.randomUUID()
+      : null;
+  if (!id) return null;
+  const ok = await postAudit({
+    action: 'start',
+    id,
+    source: opts.source ?? 'manychat',
+    utm_campaign: opts.utm_campaign ?? null,
+  });
+  return ok ? id : null;
 }
 
 // Update des réponses + progression à chaque question.
@@ -52,15 +47,8 @@ export async function saveAnswer(
   answers: Answers,
   progression: number,
 ): Promise<void> {
-  if (!id || !supabaseConfigure()) return;
-  try {
-    await getSupabaseBrowser()
-      .from('audit_responses')
-      .update({ answers, progression })
-      .eq('id', id);
-  } catch (e) {
-    console.warn('[audit] saveAnswer échoué', e);
-  }
+  if (!id) return;
+  await postAudit({ action: 'save', id, answers, progression });
 }
 
 // Marque l'abandon (déclenché sur beforeunload avant complétion).
@@ -68,15 +56,8 @@ export async function markAbandon(
   id: string | null,
   progression: number,
 ): Promise<void> {
-  if (!id || !supabaseConfigure()) return;
-  try {
-    await getSupabaseBrowser()
-      .from('audit_responses')
-      .update({ abandonne: true, progression })
-      .eq('id', id);
-  } catch {
-    /* best-effort */
-  }
+  if (!id) return;
+  await postAudit({ action: 'abandon', id, progression });
 }
 
 export interface FinalizeInput {
@@ -87,10 +68,9 @@ export interface FinalizeInput {
   consentement: boolean;
 }
 
-// Calcule les scores, écrit la ligne finale, puis déclenche email + Notion.
-// L'écriture Supabase est best-effort (dégrade en silence). En revanche le
-// déclenchement de /api/resultat (email + CRM) peut lever : l'appelant
-// affiche alors le message d'erreur et propose de réessayer (spec §5).
+// Calcule les scores, puis envoie tout au serveur : écriture de la ligne
+// finale (service_role) + email + Notion. Peut lever si l'appel échoue —
+// l'appelant affiche alors le message d'erreur et propose de réessayer.
 export async function finalize(input: FinalizeInput): Promise<Scores> {
   const scores = calculerScores(input.answers);
 
@@ -99,41 +79,6 @@ export async function finalize(input: FinalizeInput): Promise<Scores> {
     ? TAILLE_EQUIPE_MAP[input.answers.q18]
     : null;
 
-  if (input.id && supabaseConfigure()) {
-    try {
-      await getSupabaseBrowser()
-        .from('audit_responses')
-        .update({
-          prenom: input.prenom,
-          email: input.email,
-          ca_mensuel_range: ca,
-          taille_equipe: taille,
-          answers: input.answers,
-          progression: 18,
-          completed_at: new Date().toISOString(),
-          consentement_donne: input.consentement,
-          consentement_date: input.consentement
-            ? new Date().toISOString()
-            : null,
-          consentement_texte: input.consentement ? CONSENTEMENT.texte : null,
-          consentement_version: input.consentement
-            ? CONSENTEMENT.version
-            : null,
-          score_ventes: scores.ventes,
-          score_delivery: scores.delivery,
-          score_admin: scores.admin,
-          score_contenu: scores.contenu,
-          score_global: scores.global,
-          niveau: scores.niveau,
-        })
-        .eq('id', input.id);
-    } catch (e) {
-      console.warn('[audit] finalize update échoué', e);
-    }
-  }
-
-  // Déclenche l'email transactionnel + le webhook Notion côté serveur.
-  // Une erreur réseau / un statut non-2xx remonte à l'appelant.
   const res = await fetch('/api/resultat', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -141,8 +86,10 @@ export async function finalize(input: FinalizeInput): Promise<Scores> {
       id: input.id,
       prenom: input.prenom,
       email: input.email,
+      consentement: input.consentement,
       ca_mensuel_range: ca,
       taille_equipe: taille,
+      answers: input.answers,
       scores,
     }),
   });

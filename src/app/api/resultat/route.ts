@@ -9,6 +9,7 @@ import { calculerScores } from '@/lib/scoring';
 import { htmlResultat, sujetResultat } from '@/lib/email';
 import { pushToNotion } from '@/lib/notion';
 import { getSupabaseAdmin } from '@/lib/supabase';
+import { CONSENTEMENT } from '@/lib/consentement';
 
 interface Body {
   id?: string | null;
@@ -17,6 +18,7 @@ interface Body {
   instagram_handle?: string | null;
   ca_mensuel_range?: string | null;
   taille_equipe?: string | null;
+  consentement?: boolean;
   scores?: Scores;
   answers?: Record<string, number>;
 }
@@ -49,18 +51,42 @@ export async function POST(req: Request) {
     notion: null,
   };
 
-  // Récupère le jeton de désinscription pour le pied de page de l'email.
+  // Écriture de la ligne finale (service_role, contourne la RLS) + récupération
+  // du jeton de désinscription en une seule requête.
   let unsubscribeToken: string | null = null;
   if (body.id && process.env.SUPABASE_SERVICE_ROLE_KEY) {
     try {
-      const { data } = await getSupabaseAdmin()
+      const nowIso = new Date().toISOString();
+      const { data, error } = await getSupabaseAdmin()
         .from('audit_responses')
-        .select('unsubscribe_token')
+        .update({
+          prenom,
+          email,
+          ca_mensuel_range: body.ca_mensuel_range ?? null,
+          taille_equipe: body.taille_equipe ?? null,
+          answers: body.answers ?? {},
+          progression: 18,
+          completed_at: nowIso,
+          consentement_donne: !!body.consentement,
+          consentement_date: body.consentement ? nowIso : null,
+          consentement_texte: body.consentement ? CONSENTEMENT.texte : null,
+          consentement_version: body.consentement
+            ? CONSENTEMENT.version
+            : null,
+          score_ventes: scores.ventes,
+          score_delivery: scores.delivery,
+          score_admin: scores.admin,
+          score_contenu: scores.contenu,
+          score_global: scores.global,
+          niveau: scores.niveau,
+        })
         .eq('id', body.id)
+        .select('unsubscribe_token')
         .single();
+      if (error) throw error;
       unsubscribeToken = data?.unsubscribe_token ?? null;
     } catch (e) {
-      console.warn('[audit] lecture unsubscribe_token échouée', e);
+      console.warn('[audit] écriture ligne finale échouée', e);
     }
   }
 
