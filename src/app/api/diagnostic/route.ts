@@ -41,16 +41,27 @@ export async function GET() {
       test_anon = error ? `ERREUR: ${error.message}` : `OK (ligne ${id} créée)`;
       if (!error) {
         // Teste des colonnes des 3 migrations (0001 scores, 0002 consentement).
+        // Réplique EXACTEMENT toutes les colonnes que remplit l'audit (finalize).
         const { error: upErr } = await anon
           .from('audit_responses')
           .update({
             prenom: 'diag',
             email: 'diag@test.fr',
+            ca_mensuel_range: '<5k',
+            taille_equipe: 'seule',
+            answers: { q1: 1 },
+            progression: 18,
             completed_at: new Date().toISOString(),
+            consentement_donne: true,
+            consentement_date: new Date().toISOString(),
+            consentement_texte: 'diag',
+            consentement_version: 'diag',
+            score_ventes: 50,
+            score_delivery: 50,
+            score_admin: 50,
+            score_contenu: 50,
             score_global: 50,
             niveau: 'modere',
-            consentement_donne: true,
-            email_j2_envoye: false,
           })
           .eq('id', id);
         test_anon_update = upErr ? `ERREUR: ${upErr.message}` : 'OK';
@@ -77,5 +88,5 @@ export async function GET() {
     }
   }
 
-  return NextResponse.json({ version: 'v5', env, test_anon, test_anon_update, test_service });
+  return NextResponse.json({ version: 'v6', env, test_anon, test_anon_update, test_service });
 }
