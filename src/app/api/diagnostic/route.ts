@@ -5,10 +5,11 @@
 // À SUPPRIMER une fois le débogage terminé.
 import { NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
+import { Resend } from 'resend';
 
 export const dynamic = 'force-dynamic';
 
-export async function GET() {
+export async function GET(req: Request) {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
   const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -88,5 +89,38 @@ export async function GET() {
     }
   }
 
-  return NextResponse.json({ version: 'v7', env, test_anon, test_anon_update, test_service });
+  // Test 3 — envoi d'un email de test via Resend (ajoute ?email=ton@email.com).
+  let test_email = 'non exécuté (ajoute ?email=ton@email.com à l’URL)';
+  const emailTo = new URL(req.url).searchParams.get('email');
+  const resendKey = process.env.RESEND_API_KEY?.trim();
+  const from = process.env.RESEND_FROM?.trim();
+  if (emailTo) {
+    if (!resendKey || !from) {
+      test_email = `clé/from manquant (RESEND_API_KEY=${!!resendKey}, RESEND_FROM="${from ?? ''}")`;
+    } else {
+      try {
+        const resend = new Resend(resendKey);
+        const { data, error } = await resend.emails.send({
+          from,
+          to: emailTo,
+          subject: 'Test — Audit de Dépendance',
+          html: '<p>Ceci est un email de test envoyé depuis le diagnostic.</p>',
+        });
+        test_email = error
+          ? `ERREUR: ${JSON.stringify(error)}`
+          : `OK (envoyé, id ${data?.id})`;
+      } catch (e) {
+        test_email = `EXCEPTION: ${e instanceof Error ? e.message : String(e)}`;
+      }
+    }
+  }
+
+  return NextResponse.json({
+    version: 'v8',
+    env,
+    test_anon,
+    test_anon_update,
+    test_service,
+    test_email,
+  });
 }
