@@ -77,5 +77,5 @@ export async function GET() {
     }
   }
 
-  return NextResponse.json({ version: 'v4', env, test_anon, test_anon_update, test_service });
+  return NextResponse.json({ version: 'v5', env, test_anon, test_anon_update, test_service });
 }
