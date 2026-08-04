@@ -5,12 +5,26 @@ import type { Niveau } from './scoring';
 
 export type Offre = 'sprint' | 'coaching';
 
-// ⚠️ À COMPLÉTER — tes vrais liens de prise de rendez-vous (Calendly / Cal.com).
-// Tant qu'ils sont vides, la page affiche un message au lieu du bouton.
+// Liens de prise de rendez-vous (Calendly).
 export const BOOKING: Record<Offre, string> = {
-  sprint: '', // ex. 'https://calendly.com/vanessasone/appel-sprint'
-  coaching: '', // ex. 'https://calendly.com/vanessasone/appel-acceleration'
+  sprint: 'https://calendly.com/vanysweddings/rdv-vanessa-le-sprint',
+  coaching: 'https://calendly.com/vanysweddings/rdv-vanessa-le-sprint-clone',
 };
+
+// Construit le lien Calendly avec pré-remplissage du prénom + email
+// (l'invitée les a déjà donnés dans l'audit → moins de friction).
+export function bookingUrl(
+  offre: Offre,
+  prefill: { prenom?: string; email?: string },
+): string {
+  const base = BOOKING[offre];
+  if (!base) return '';
+  const params = new URLSearchParams();
+  if (prefill.prenom) params.set('name', prefill.prenom);
+  if (prefill.email) params.set('email', prefill.email);
+  const qs = params.toString();
+  return qs ? `${base}?${qs}` : base;
+}
 
 // Tranches de CA (valeurs de la question CA) éligibles au SPRINT™.
 // ⚠️ Ajuste ce seuil selon ta stratégie commerciale.

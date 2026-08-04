@@ -7,7 +7,7 @@ import {
   QUESTIONS,
   routerOffre,
   OFFRES,
-  BOOKING,
+  bookingUrl,
   type Offre,
 } from '@/lib/eligibilite';
 import ProgressBar from '@/components/ProgressBar';
@@ -15,6 +15,7 @@ import ProgressBar from '@/components/ProgressBar';
 interface Stored {
   scores: Scores;
   prenom?: string;
+  email?: string;
   ca?: string | null;
 }
 
@@ -61,7 +62,7 @@ export default function EligibilitePage() {
     const caChoisi = reponses.ca ?? data.ca ?? null;
     const offre: Offre = routerOffre(caChoisi, data.scores.niveau);
     const meta = OFFRES[offre];
-    const lien = BOOKING[offre];
+    const lien = bookingUrl(offre, { prenom: data.prenom, email: data.email });
     return (
       <main className="screen">
         <div className="container fade-in">

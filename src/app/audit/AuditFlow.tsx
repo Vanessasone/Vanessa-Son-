@@ -96,6 +96,7 @@ export default function AuditFlow() {
           JSON.stringify({
             scores,
             prenom: identite.prenom,
+            email: identite.email,
             ca: answers.q17 ? CA_MENSUEL_MAP[answers.q17] : null,
           }),
         );
