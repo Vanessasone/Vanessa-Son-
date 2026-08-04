@@ -116,7 +116,7 @@ export async function GET(req: Request) {
   }
 
   return NextResponse.json({
-    version: 'v8',
+    version: 'v9',
     env,
     test_anon,
     test_anon_update,
