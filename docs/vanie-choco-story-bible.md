@@ -37,4 +37,34 @@ le frère-mentor · "reproduire ce qu'on a fui".
 
 ---
 
-<!-- Réponses suivantes à ajouter au fur et à mesure : A2 → H35 -->
+### A2. La danse — comment elle est entrée dans sa vie
+- **Origine via Bruce, au Cameroun** : il regardait des vidéos de Michael Jackson ;
+  leur père lui avait offert la cassette *Beat Street (1984)*. Passion née là ;
+  il s'entraînait seul à la maison.
+- Après la mort du père → **France** : un temps à **Bordeaux**, puis
+  **Champs-sur-Marne** (là où elle a grandi).
+- **6,5 ans d'écart avec Bruce.** À ses 6 ans (lui ~12-13), il intègre un groupe
+  de danse. Comme il s'occupait souvent d'elle (mère au travail, autre frère
+  absent), **elle le suivait aux entraînements → elle a appris à danser toute
+  petite, avec son frère.**
+- **7 ans : danse classique** (mise par la mère). Elle **détestait** (« pas fait
+  pour mon corps »), mais en a fait **7 ans pour faire plaisir à sa mère** —
+  dont le rêve était de devenir petit rat de l'Opéra (transfert).
+- **8 ans : premier Bataclan. 10 ans : premier Zénith.**
+- **14 ans : déjà danseuse professionnelle.** Scène clé : à une répétition de
+  Bruce (devenu pro), une danseuse manque ; la chorégraphe lui demande juste de
+  faire les placements → **elle apprend toute la choré rien qu'en la regardant**,
+  impressionne tout le monde → la choré demande à Bruce de la présenter à
+  quelqu'un avec des contrats réguliers → **payée pour danser dès 14 ans.**
+- **700 à 1000 € / mois à 14 ans**, en étant encore au collège/lycée. **Aucune
+  éducation financière → rien économisé.**
+- **Premier Bercy à 14-15 ans.** Parc des Princes, Stade Jean-Bouin dès 14 ans.
+  **Premier Stade de France à 16 ans** (année d'ouverture).
+
+**Angles réels :** la prodige qui apprend à l'œil (mémoire du mouvement) · la
+discipline de la danse classique détestée mais tenue 7 ans · gagner gros très
+jeune sans savoir gérer → le rapport à l'argent qui se joue là · la danse comme
+lien fusionnel avec Bruce / substitut familial.
+
+<!-- Réponses suivantes à ajouter au fur et à mesure : A3 → H35 -->
+
