@@ -264,9 +264,80 @@ ambitieuse (dans son couple, son entourage) ».
 
 ---
 
-## BLOC C — Le côté sombre *(à venir)*
+## BLOC C — Le côté sombre
 
-<!-- Réponses suivantes à ajouter au fur et à mesure : C10 → H35 -->
+### C10/C11/C12. La descente aux enfers (~5 ans) — le cœur émotionnel du dossier
+> ⚠️ Matière ultra-sensible. À manier avec dignité, jamais en misérabilisme.
+
+**Le contexte de départ (tout était prévu) :**
+- Achète **2 appartements en même temps** (à **Évry, 91**). Objectif :
+  **colocation meublée**. Emménage avec un nouveau copain (**94**), loyer
+  **~1 500 €/mois**. Elle gagne alors **~8 000 €/mois, seule** → gérable.
+- **Prévoyante** : garde **~80 000 € d'épargne** malgré les achats ; ~30-40k
+  utilisés pour une partie des travaux (le reste financé) ; **~40-50k de matelas**
+  au cas où.
+
+**La bascule (l'artisan escroc) :**
+- **L'artisan des travaux part avec la quasi-totalité de la somme** (il ne restait
+  que ~1 000 € à lui verser) **sans finir les travaux → il disparaît.**
+- Elle doit **remettre son épargne** dans les travaux restants ; en fait une
+  grosse partie elle-même (alors qu'elle est "nulle" en bricolage), doit quand
+  même payer élec, etc. → **épargne fondue à ~5 000 €.**
+- **Malchance de timing** : travaux finis **~février** (étudiants déjà logés) et
+  Évry sort **justement** des logements étudiants → **ne peut pas louer.**
+
+**L'effet domino (2 ans à tenir puis tout lâche) :**
+- Se sépare, garde l'appart à 1 500 €/mois. Tient **2 ans** (crédits + charges de
+  copro). Malgré ~8k/mois : **plus de charges que d'entrées.**
+- N'arrive plus à payer copro + crédit → **un appartement saisi et vendu aux
+  enchères** · **voiture saisie et vendue aux enchères** · **grosse dette
+  locative** sur son propre logement.
+- **Rembourse l'intégralité de la dette locative (~20 000 €)** à temps. Continue à
+  y vivre.
+
+**Le coup fatal (l'expulsion) :**
+- ~2 ans après avoir soldé les 20k : **change de banque** → le virement du loyer
+  ne se fait pas automatiquement (demande de transfert non exécutée). **Impayé en
+  février**, elle s'en aperçoit, régularise.
+- **23 juin** : elle rentre, **sa porte est sous scellés.** Le bailleur avait
+  **gardé la procédure d'il y a 4 ans sous le coude** (condition suspensive) →
+  profite du petit impayé de février pour lancer l'huissier dès la fin de la
+  **trêve hivernale**.
+- **Expulsée avec son fils.** Très violent. **Heureusement le fils était chez son
+  père** → n'a pas vu la porte scellée. **1 mois pour organiser tout le
+  déménagement. Littéralement SDF un moment.**
+- **Un copain (récent à l'époque) les héberge et prend soin d'eux.** Comme elle
+  avait réussi à payer les arriérés de crédit de **l'autre appartement (non
+  vendu)**, ils vont y vivre. Là aussi galères : **vitres cassées, un squat**,
+  problèmes de locataires.
+
+**Bilan :**
+- **~5 ans horribles, dettes énormes, elle en paie encore certaines aujourd'hui.**
+  "Les choses les plus difficiles de ma vie."
+- **La boucle intergénérationnelle** : huissiers subis enfant → juré de ne pas
+  l'infliger à son fils → **le fils n'a pas vu les huissiers MAIS ils ont été
+  expulsés**, vie changée du tout au tout. Culpabilité de mère.
+- **La rédemption** : elle **a trouvé des solutions**, le **fils l'a plutôt bien
+  vécu**, ils sont **hyper soudés**. Fils **13 ans aujourd'hui, très mûr**, vraies
+  conversations. Dur pour elle, un peu pour lui.
+
+**Angles réels (les plus puissants de tout le dossier) :**
+- « Je gagnais 8 000 € par mois et j'ai fini SDF avec mon fils. » → détruit le
+  mythe "gagner beaucoup = être en sécurité". Gérer > gagner.
+- « Le 23 juin, ma porte était sous scellés. » (scène d'ouverture de réel)
+- La boucle huissiers enfant → expulsion mère → transformation. Héritage & revanche.
+- L'artisan qui disparaît avec l'argent = trahison + leçon (déléguer sans
+  système/garde-fou).
+- Le bailleur qui garde la procédure 4 ans = comment un détail administratif
+  (changement de banque) peut tout faire tomber → rigueur des systèmes.
+- « Mon fils l'a bien vécu parce que j'ai trouvé des solutions » = la résilience
+  transmissible, le cœur du personnage.
+
+> ⏳ À COMPLÉTER (bloc C) : **C13** le moment où elle a voulu tout arrêter + ce qui
+> l'a retenue · **C14** blessure plus intime (famille/santé/mental/cœur).
+
+<!-- Réponses suivantes à ajouter au fur et à mesure : C13 → H35 -->
+
 
 
 
