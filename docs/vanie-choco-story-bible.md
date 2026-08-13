@@ -704,9 +704,35 @@ plus chers que ses objectifs » · « De 0 visite à 3 ventes en 1 semaine ».
 travail entre femmes (teaser d'offre) · « je veux que tu t'enrichisses pour
 pouvoir aider les autres » (l'argent comme levier de sens).
 
-> ⏳ À COMPLÉTER (bloc H) : **H34** confirmer le programme de groupe (nom/cible/
-> transfo — "Décolle ta vie financière" ou variante entrepreneuses) · **H35** son
-> "pourquoi" profond.
+- **Lifestyle (preuve de liberté) :** minimum **4 voyages/an** (2 avec son fils,
+  2 sans). **Emmène son fils sur ses contrats à l'étranger** dès que possible
+  (part avant, reste après, pour en profiter avec lui).
+
+### H34. Le programme de groupe (VALIDÉ)
+- **PAS** le concept du livre ("Décolle ta vie financière" — trop daté / trop
+  orienté dettes).
+- **Programme 100 % BUSINESS** : **signer des clients + créer son offre** — en
+  gros **son coaching, mais en format groupé** (donc un peu moins poussé que le
+  1:1, mais même colonne vertébrale : offre signature → systèmes → acquisition/
+  vente).
+- Nom : **à trouver** (travail).
+
+### H35. Son POURQUOI profond (la mission — cœur de la marque)
+- **Faire comprendre aux femmes que c'est ELLES qui ont le pouvoir de créer leur
+  vie.**
+- **« Tu as le droit d'avoir de l'ambition, même en étant une femme. »**
+- Assume une **énergie très masculine** et elle est OK avec ça.
+- **« Le prince charmant ne viendra pas te sauver. Tu te sauves toi-même
+  d'abord. »**
+- **La vie dont tu rêves, c'est à TOI de mettre les choses en place.**
+- **« Tout est possible si : 1) tu y crois, 2) tu passes à l'action. »**
+
+**Angles réels (mission / manifeste) :** « Le prince charmant ne viendra pas »
+· « T'as le droit d'être ambitieuse ET une femme » · « Sauve-toi toi-même » ·
+« Ton pouvoir, c'est toi » → contenu manifeste, très clivant, très fédérateur.
+
+---
+✅ **BLOCS G & H COMPLETS. INTERROGATOIRE TERMINÉ — STORY BIBLE COMPLÈTE.**
 
 ---
 
