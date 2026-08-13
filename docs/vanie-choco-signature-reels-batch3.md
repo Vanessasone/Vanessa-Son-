@@ -29,6 +29,33 @@ te dit tes vérités · ta devise « L'argent ne change pas les gens, il les ré
 - 1 réel **méthode nommée** (C.A.S.H, F.I.L.T.R.E, 5 Décisions… format un peu plus structuré)
 - 1 réel **conversion** (appel Déclic / offre) — CTA fort
 
+### ⚙️ RÈGLES v2 (à appliquer à TOUS les réels)
+1. **La vérité n'est pas absolue → la nuance en 2 temps.** On garde le hook-claque
+   assassin (le stop-scroller), PUIS on nuance : on donne raison à moitié, on
+   montre la subtilité, on tient les DEUX vérités. Ça évite le slogan creux et ça
+   crée le débat. Modèle : *« [Affirmation choc]. …Attends, laisse-moi finir. En
+   vrai [nuance]. MAIS [la vraie vérité qui tranche]. »*
+2. **Toujours un ancrage : exemple ultra-concret OU analogie OU métaphore.** Chaque
+   réel doit contenir au moins un des trois pour rendre le propos palpable (jamais
+   du concept en l'air).
+3. **Longueur : ~45-55 s.** Assez développé pour dérouler la nuance et respirer —
+   jamais bâclé, jamais bavard. On coupe tous les "euh".
+4. **Le POURQUOI profond irrigue le contenu** : la liberté (acheter/voyager/vivre
+   comme elle veut), la sécurité de son fils + son homme + elle. C'est le moteur
+   émotionnel à réinjecter régulièrement.
+
+---
+
+## ⭐ RÉEL ÉTALON — « La motivation, c'est de la merde » *(nuance 2 temps + métaphore)*
+*Le modèle de référence : hook-claque → nuance → vérité qui tranche → métaphore + preuve → chute perso.*
+- **🎬 Écran :** « LA MOTIVATION, C'EST DE LA MERDE »
+- **🎙️ Claque :** « La motivation, c'est de la merde. …Attends, me lynche pas, laisse-moi finir. »
+- **Nuance (phase 1 — la motivation compte) :** En vrai, la motivation, c'est vital. Mais c'est pas un carburant de tous les jours. C'est une **étincelle**. C'est ton POURQUOI. Moi, ce qui m'allume ? Que mon fils, mon homme et moi on soit à l'aise. Libre d'acheter ce que je veux, de voyager quand je veux, avec qui je veux. Ça, ça me met le feu.
+- **Vérité (phase 2 — la discipline tranche) :** Mais une étincelle, ça enflamme deux secondes, puis ça s'éteint. Ce qui garde le feu allumé les jours de merde, c'est la **discipline**. J'ai dansé 28 ans — gamine, j'allais à l'entraînement même sans envie, parce que j'avais un cadre, pas une humeur.
+- **Chute (clivant + perso) :** Donc garde ta motivation comme allumette. Mais compte jamais dessus pour tenir — le feu, c'est la discipline qui l'entretient. *(Après, soyons claires : les jours où j'ai VRAIMENT pas envie, je bosse pas. Je bosse tellement bien les jours motivés que je m'octroie ce luxe. La liberté, c'est ça aussi.)*
+- **📲 CTA :** Commente **CLICK**.
+> Métaphore = étincelle/feu · Exemple concret = 28 ans de danse · Pourquoi = fils/homme/liberté. ✅ Les 3 règles v2 cochées.
+
 ---
 
 ## RÉEL 1 — « Gagner beaucoup ≠ être en sécurité » *(clivant · pensée cash)*
