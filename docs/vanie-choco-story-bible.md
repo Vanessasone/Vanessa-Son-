@@ -90,6 +90,49 @@ précoce.
 > ⏳ À COMPLÉTER (bloc A) : le **meilleur** souvenir précis (scène/frisson) et le
 > **pire** souvenir précis (blessure/humiliation/trahison) — pas encore donnés.
 
-<!-- Réponses suivantes à ajouter au fur et à mesure : A3(bis) → H35 -->
+### A3. Meilleur & pire souvenir de danseuse
+
+**MEILLEURS :**
+- **Premier clip à 14 ans, tournage au Maroc** (désert de **Ouarzazate**).
+  Mineure → dérogation signée par la mère. 1 semaine sur place, 2 jours de
+  travail. Logés dans des "cases" magnifiques, sensation de bien-être totale,
+  tournage en plein désert. Aventure "increíble".
+- **New York, 2 semaines**, jeune : Bruce donnait des cours, a créé une compagnie
+  avec des élèves (dont elle) → stages de danse à NYC. Génial.
+- **Voyager dans énormément de pays**, prendre l'avion régulièrement → grisant.
+
+**PIRE (= la bascule) :**
+- Déclencheur : **la naissance de son fils.** Avant, elle acceptait des contrats
+  moyens (pluridisciplinaire assumée, "c'est du cachet, de l'argent").
+- **La scène-symbole :** 5h de camion à l'aller avec une compagnie brésilienne +
+  musiciens **batucada** (musique pendant tout le trajet), pour faire un **show
+  brésilien entre les rayons lessive et adoucissant d'un supermarché** (anniv. des
+  20 ans du magasin), puis **5h de retour** avec la même batucada. Prise de
+  conscience violente : **« je ne veux plus de ça. »**
+- Elle **refuse des contrats** → **perd son statut d'intermittente du spectacle**
+  (qu'elle avait toujours eu) → **mère célibataire à 30 ans, au RSA.**
+- Choc d'autant plus dur qu'elle avait **toujours très bien gagné sa vie, même
+  ado** → passage brutal aux "cacahuètes".
+- **La trahison :** elle réalise que **dans la danse, pas de vrais amis.** Tous
+  ceux à qui elle a donné du travail pendant des années (et permis d'avoir leur
+  intermittence) **disparaissent** au moment où, **pour la première fois**, elle
+  demande de l'aide — même pas du travail, juste **qu'on lui parle des castings.**
+  **13 ans plus tard (elle a 43 ans aujourd'hui vs 30 alors), elle attend encore
+  leur message.**
+
+**Angles réels (parmi les plus forts du dossier) :**
+- « De payée à 14 ans à mère célib au RSA à 30 » — l'ascenseur émotionnel total.
+- L'image "danser entre la lessive et l'adoucissant" = le moment où l'ego meurt /
+  le déclic du "plus jamais ça".
+- La **trahison du milieu** → thème universel : les gens que tu portes
+  disparaissent quand tu tombes. Puissant + clivant.
+- La maternité comme électrochoc / point de bascule.
+
+---
+
+## BLOC B — La bascule (danse → business) *(à venir)*
+
+<!-- Réponses suivantes à ajouter au fur et à mesure : B6 → H35 -->
+
 
 
