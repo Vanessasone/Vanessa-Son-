@@ -218,8 +218,32 @@ précoce.
 **Angle réel :** « J'ai payé un coaching pour m'entendre dire ce que je disais
 déjà aux autres → j'ai compris que j'étais l'experte. » (légitimité + humour)
 
-> ⏳ À COMPLÉTER (bloc B) : **la peur n°1** au moment de se lancer · **les
-> réactions de l'entourage** quand elle a changé de voie.
+### B7. La peur n°1 au lancement → en fait, aucune
+- **Pas de vraie peur** : elle a lancé le mariage **en parallèle** de la danse +
+  l'association (travail sur les deux/trois tableaux, montée progressive du
+  mariage → zéro saut dans le vide).
+- **La goutte d'eau (début 2020)** : appelée pour un clip (recommandée, ne connaît
+  pas la personne). On lui propose **150 € pour 2 jours de tournage + 4
+  répétitions** = indécent. Elle refuse. Réponse du mec : *« ça va te faire de la
+  visibilité »* — alors que **c'est lui qui est venu la chercher.** En raccrochant :
+  *« il faut que j'arrête la danse, j'y vais à reculons. »* Objectif : développer
+  le mariage pour générer **au moins autant que les deux activités réunies.**
+- **~2 jours après : 1er confinement Covid.** Bénéficie de la mesure permettant de
+  **garder son statut d'intermittente ~1 an sans travailler** (l'« année
+  blanche » — à confirmer). → En profite pour **développer Vany's Weddings et
+  arrêter totalement la danse.**
+- **La vraie pression = l'argent** : nécessité de générer assez pour bien vivre,
+  d'autant qu'elle **achetait des appartements au même moment** (investissement
+  immobilier) → gérer + garder des économies.
+- **Syndrome de l'imposteur : ne pense pas l'avoir jamais eu.** (À creuser au
+  bloc F.)
+
+**Angles réels :** le clip à 150 € = « le jour où j'ai refusé qu'on me paie en
+visibilité » (réel argent/posture ultra fort) · lancer en parallèle sans filet =
+anti-"quitte tout d'un coup" · investisseuse immo en parallèle = autorité argent.
+
+> ⏳ À COMPLÉTER (bloc B) : **les réactions de l'entourage** quand elle a changé
+> de voie (phrases de soutien et surtout phrases qui piquent).
 
 ---
 
