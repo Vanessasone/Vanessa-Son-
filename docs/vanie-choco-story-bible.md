@@ -206,9 +206,27 @@ précoce.
 
 ---
 
+### B (complément). Le passage au coaching
+- Elle se **fait elle-même coacher** (impression de mal communiquer pour vendre
+  ses prestations). Déclic : **tous les conseils qu'on lui donne sont exactement
+  ceux qu'elle donne déjà** à des gens lambda.
+- → Prend une **formation pour apprendre à coacher** → bascule dans le coaching.
+- **Coachings à fort succès, notamment auprès des prestataires de mariage** (elle
+  connaît le milieu à fond → très pertinent). Mais conviction : **le business
+  coaching est valable pour N'IMPORTE quel business.** Très bons résultats.
+
+**Angle réel :** « J'ai payé un coaching pour m'entendre dire ce que je disais
+déjà aux autres → j'ai compris que j'étais l'experte. » (légitimité + humour)
+
+> ⏳ À COMPLÉTER (bloc B) : **la peur n°1** au moment de se lancer · **les
+> réactions de l'entourage** quand elle a changé de voie.
+
+---
+
 ## BLOC C — Le côté sombre *(à venir)*
 
 <!-- Réponses suivantes à ajouter au fur et à mesure : C10 → H35 -->
+
 
 
 
