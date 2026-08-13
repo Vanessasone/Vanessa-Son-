@@ -538,6 +538,26 @@ luxe ultime, filtrer sur le comportement pas que le budget).
 ---
 ✅ **BLOC E COMPLET.**
 
+---
+
+## BLOC F — Personnalité & opinions clivantes
+
+### F. Réactions aux punchlines (👍 = validé comme opinion réelle → utilisable en réel)
+1. **« La motivation c'est de la merde, seule la discipline paie »** → 👍. La
+   motivation fluctue ; disciplinée = tu t'obliges, pas besoin de motivation.
+   Nuance honnête : "ça peut être difficile".
+2. **« Gagner peu = pas un problème de talent mais de couilles »** → 👍.
+3. **« Un client qui négocie ton prix ne sera jamais un bon client »** → 👍 total.
+   **Elle refuse TOUTE négociation.** (signature)
+4. **« Bosser gratuit "pour la visibilité" = se faire escroquer avec le sourire »**
+   → 👍 total. **Vécu dans la danse** (le clip à 150€ "pour la visibilité", etc.).
+5. **« Suivre sa passion sans savoir vendre = rester pauvre »** → 👍 total.
+6. **« La sécurité de l'emploi est une illusion ; le vrai risque = dépendre d'un
+   seul salaire »** → 👍 extrême.
+
+> ⏳ À COMPLÉTER (bloc F) : réactions #7 → #15 · **F27** ses punchlines/gros mots
+> réels · **F25** son ennemi (discours à détruire) · **F29** ses lignes rouges.
+
 
 
 <!-- Réponses suivantes à ajouter au fur et à mesure : C13 → H35 -->
