@@ -402,6 +402,34 @@ Studio). Le succès sans structure = piège.
 ---
 ✅ **BLOC C COMPLET.**
 
+---
+
+## BLOC D — L'argent
+
+### D15. Sa relation à l'argent aujourd'hui
+- **Conviction/objectif : elle est destinée à faire beaucoup d'argent → minimum
+  1 000 000 € / an.** Dit sans complexe.
+- **La sécurité par le cash** (héritage direct de son vécu + celui de sa mère) :
+  veut **acheter sa maison CASH, sans crédit** — *« je ne veux plus qu'on puisse
+  me taper sur l'épaule en me disant : vous me rendez les clés, madame. »*
+- Après la **saisie de sa voiture** : **1 an et demi sans véhicule**, puis
+  **rachat de la nouvelle voiture cash.**
+- **L'argent = obsession assumée**, née d'un **problème de longue date avec le
+  manque** (aujourd'hui exacerbé). Y pense **chaque jour**.
+- **Zéro tabou pour parler d'argent.** Sait que c'est mal vu en France →
+  *« j'en ai rien à foutre. »* Toujours de bon conseil pour aider les gens à faire
+  plus (ne serait-ce qu'un petit side hustle).
+
+**Angles réels :** « Objectif 1 M€/an, je le dis sans honte » (anti-tabou FR) ·
+« J'achèterai ma maison cash — plus jamais on me reprendra les clés » (la vraie
+def de la liberté financière, née du trauma) · « 1 an et demi sans voiture pour
+la racheter cash » (discipline > confort) · l'argent obsession né du manque.
+
+> ⏳ À COMPLÉTER (bloc D) : **D16** premier gros encaissement + ce que ça a changé ·
+> **D17** croyance argent défoncée · **D18** objectifs chiffrés Vanie Choco (mois) ·
+> **D19** ce qui la met en rage dans le rapport des femmes à leur argent.
+
+
 
 <!-- Réponses suivantes à ajouter au fur et à mesure : C13 → H35 -->
 
