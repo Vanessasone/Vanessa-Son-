@@ -355,8 +355,37 @@ J'ai réussi parce que j'avais AUCUNE porte de sortie — j'étais littéralemen
 inembauchable. » → détruit le mythe du plan B, glorifie le "dos au mur". Très
 clivant, très vrai.
 
-> ⏳ À COMPLÉTER (bloc C) : **C14** blessure plus intime
-> (famille / santé / mental / cœur).
+### C14. Les blessures intimes (moteur profond)
+> 🚨 **LIGNE ROUGE / consentement :** la **mère** et le **père de son fils** ne
+> doivent **JAMAIS être nommés ni exposés** publiquement. Ces sujets ne peuvent
+> être évoqués qu'**en abstrait**, comme thèmes universels, jamais en règlement
+> de comptes. Valider chaque usage avec elle.
+
+- **Relation à la mère :** fusionnelle jusqu'à **17 ans**, puis rupture brutale et
+  **relations explosives** ("l'électricité était palpable"). Est partie **à des
+  milliers de km** (sûrement pour s'éloigner). Retours, tensions. A fini par
+  **couper ~3 ans** (schémas/comportements non sains) — tout en laissant l'accès
+  au petit-fils. **Aujourd'hui ça va mieux** ; elle la **stoppe net** dès qu'elle
+  repart dans ses travers. → thème : poser des limites même avec sa mère.
+- **Père de son fils :** l'a **trompée pendant toute sa grossesse.** ⚠️ Ne veut
+  **pas** en parler nommément — abstrait uniquement, voire pas du tout.
+- **Blessures cœur : trahison + abandon.** Beaucoup de trahisons vécues, sentiment
+  fréquent d'**abandon**. **Schéma amoureux répétitif** qu'elle cherche à dépasser.
+- **Posture de protection (Scorpion) :** *« Quand ça ne me va plus, j'arrête tout.
+  Même si j'ai mal au cœur, même si j'aime à la folie — si c'est pas bon pour mon
+  mental, je me casse. Je guérirai. »*
+
+**Angles réels (à manier en abstrait, sans exposer personne) :**
+- La blessure d'abandon/trahison comme **fil rouge** de toute sa vie → explique sa
+  méfiance, son indépendance farouche, sa capacité à couper.
+- **Frontières radicales = puissance** : couper sa propre mère, quitter un amour
+  "pour son mental". Posture magnétique, clivante (anti-"on s'accroche / on
+  sacrifie tout par amour"). Transposable en business (clients, associés toxiques).
+- « Je me protège avant tout » comme leçon de CEO.
+
+---
+✅ **BLOC C COMPLET.**
+
 
 <!-- Réponses suivantes à ajouter au fur et à mesure : C13 → H35 -->
 
