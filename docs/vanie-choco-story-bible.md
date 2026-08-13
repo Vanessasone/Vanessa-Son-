@@ -497,9 +497,32 @@ conversion.
 dès le jour 1. Pas de qualité sans quantité d'abord. » → dégomme les gourous du
 "vends cher tout de suite", tout en légitimant sa propre montée en gamme.
 
-> ⏳ À COMPLÉTER (bloc E) : **E21** méthode en 3 piliers · **E22** ce qu'elle fait
-> que les autres coachs ne font pas · **E23** meilleur conseil business + conseil
-> répandu qu'elle trouve con.
+### E21. Sa méthode en 3 piliers (LA structure de ses coachings)
+1. **L'OFFRE SIGNATURE** — construite à partir de l'**expertise** de la cliente
+   **+ ce qu'elle aime faire.** Principe fort : faire un travail qu'on **aime**
+   (elle comme ses coachées). On concentre l'offre sur ce qu'elles **préfèrent**
+   faire, on **évite d'y mettre ce qu'elles n'aiment pas** (→ à déléguer /
+   automatiser).
+2. **LES SYSTÈMES** — systèmes d'**acquisition**, de **prestation**,
+   d'**onboarding**, de **parcours client** — **avec ou sans IA** (elle maîtrise
+   de mieux en mieux l'IA). But : simplifier **pour elle ET pour ses clients.**
+3. **LA STRATÉGIE D'ACQUISITION & DE VENTE.**
+
+### E22. Sa signature de coach
+- **Se faire payer à sa juste valeur** une fois le travail qualitatif → et pour
+  ça, **trouver les bons clients.**
+- **Fuir les petits payeurs** ("les clients qui paient le moins sont les plus
+  chiants et exigeants — j'en veux pas"). Compris très vite.
+- **Vendre par honnêteté** (mariés comme coachées) — transparence radicale.
+- **Faire ce qu'on aime** = non négociable, pour elle et ses clientes (anti
+  job/offre alimentaire).
+
+**Angles réels :** « Construis ton offre autour de ce que tu AIMES, délègue le
+reste » · « Des systèmes (avec ou sans IA) pour bosser moins » · « Fais-toi payer
+à ta valeur ou tu attireras les pires clients ».
+
+> ⏳ À COMPLÉTER (bloc E) : **E23** meilleur conseil business reçu + le conseil
+> ultra-répandu qu'elle trouve con.
 
 
 
