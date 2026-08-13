@@ -577,8 +577,78 @@ luxe ultime, filtrer sur le comportement pas que le budget).
 ⭐ **PHRASE SIGNATURE CONFIRMÉE :** « L'argent ne change pas les gens, il les
 révèle. »
 
-> ⏳ À COMPLÉTER (bloc F) : **F27** ses punchlines/gros mots réels · **F25** son
-> ennemi (discours à détruire) · **F29** ses lignes rouges · (confirmer #15).
+15. **« Tes excuses te coûtent plus cher que n'importe quel coaching »** → 👍
+    extrême.
+
+### F27. Ses punchlines / expressions
+- **« Fais du bien à Martin, il te chie dans la main. »** (sa punchline forte,
+  très vraie pour elle) → plus tu fais du bien aux gens (surtout gratuitement),
+  plus ils se permettent des choses. Relie : trahison, frontières, refus du gratuit.
+- (Dit ne pas en avoir "énormément" en tête — mais **le livre en révèle plein**,
+  voir section LIVRE ci-dessous.)
+
+### F25. Son ennemi (le discours à détruire)
+- La croyance qu'**il faut subir dans la vie**, **accepter un job alimentaire**,
+  que **« c'est comme ça »**, que les choses **ne sont pas possibles** → et donc
+  ne jamais se donner les moyens.
+- Son combat : **« tout est possible — MAIS si tu t'en donnes les moyens. Ça ne
+  tombe pas tout cru dans le bec. »**
+
+> ⏳ À COMPLÉTER (bloc F) : **F29** ses lignes rouges (sujets/mots à ne jamais
+> utiliser publiquement).
+
+---
+
+## 📕 LE LIVRE — « Bouge ton boule » / « Sortir de la M… — Et tout déchirer ! »
+> Livre inachevé de Vanessa (écrit ~2023, template "Wilny's Academy"). Un livre
+> sur la **liberté financière / sortir des dettes**. Le reste du .pages est du
+> lorem ipsum (gabarit). Contenu réel = mantra + prologue + chapitre 1.
+> **C'est la mine d'or de sa VOIX.**
+
+### Sa VOIX (confirmée par le livre — à imiter dans les réels)
+- **Cash, sans langue de bois, second degré permanent.** *« Je vais te parler
+  cash, sans détour ni langue de bois, car c'est comme ça que j'ai toujours
+  fonctionné. »*
+- **Mots signatures :** *tout déchirer · défoncer · botter les fesses · dans la
+  merde · badass · Let's rock this shit · accroche-toi · claquer des fesses*.
+- **MAJUSCULES d'emphase** (HO-RRI-BLE, QUOI ???, TOUT DÉCHIREEEER), interjections,
+  questions rhétoriques au lecteur ("cher lecteur intrépide").
+- **Autodérision + vulnérabilité crue** (peur d'ouvrir le courrier, "relents de
+  rat crevé derrière les amygdales").
+- **Références pop décalées** (le PDG d'Uber Eats nommé, TikTok gifts…).
+- **Touche spirituelle assumée** : *« C'est un signe de l'Univers… il a confiance
+  en toi. »* (dev perso + spiritualité).
+
+### Le mantra (utilisable tel quel en réel / carrousel / story)
+> *« Je suis la maîtresse de ma situation financière. Je laisse derrière moi les
+> dettes et les soucis d'argent. […] Je suis le Génie financier de ma propre
+> destinée. JE SUIS PRÊTE À TOUT DÉCHIREEEEEER. »*
+
+### Détails d'histoire confirmés/enrichis (argent)
+- **+20 000 € de dettes envers l'État.** Ne répondait plus au téléphone (peur des
+  créanciers), n'ouvrait plus son courrier (le tampon rouge). Retards sur l'achat
+  de la voiture, factures impayées.
+- La question qui tue : **« Vais-je pouvoir nourrir mon fils ce mois-ci ? »**
+- **L'épiphanie de la responsabilité** : arrêter de tout mettre sur le dos de
+  l'État / des huissiers / du président → *« ma situation est le résultat de mes
+  propres choix. »*
+- Remontée : **matelas de 5 000 €**, puis **2 appartements en location**.
+- (En 2023, dans le livre :) **3 sociétés** — mariage (orga+déco), formation aux
+  métiers du mariage, coaching en **développement personnel & spirituel**.
+
+### ⭐ ACTIF STRATÉGIQUE : programme de groupe déjà nommé
+- **« Décolle ta vie financière »** = programme de coaching de groupe qu'elle
+  décrit dans le livre : aider les gens **déterminés à se libérer de leurs dettes
+  et à construire sécurité + liberté financière.**
+- 👉 **Candidat idéal pour le programme de groupe à lancer au Mois 3** (à adapter à
+  l'audience Vanie Choco : entrepreneuses). À valider avec elle (thème dettes/
+  argent vs business pur).
+
+**Angles réels tirés du livre :** le mantra "tout déchirer" · "je ne répondais
+plus au téléphone de peur des créanciers" · "vais-je pouvoir nourrir mon fils ce
+mois-ci" · "j'ai arrêté d'accuser l'État, c'était MES choix" (responsabilité
+radicale) · "danseuse sur tous les plateaux TV… et 20 000€ de dettes" (le paradoxe
+glamour/galère).
 
 
 
