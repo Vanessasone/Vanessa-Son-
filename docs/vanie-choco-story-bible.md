@@ -680,8 +680,58 @@ glamour/galère).
 même pas » · « Ma cliente ne signait rien depuis 10 mois → 2 contrats en 1 mois,
 plus chers que ses objectifs » · « De 0 visite à 3 ventes en 1 semaine ».
 
-> ⏳ À COMPLÉTER (bloc G) : **G31** le témoignage / message de cliente qui l'a le
-> plus émue (à citer). · **G32** autre preuve perso si besoin.
+> ⏳ G31 : elle renvoie vers **les avis Vany's Weddings** (toutes plateformes,
+> surtout TikTok) → à récupérer et intégrer (voir section AVIS ci-dessous).
+
+---
+
+## BLOC H — Vision & programme de groupe
+
+### H33. Sa vie dans 3 ans (la vision — moteur émotionnel + preuve d'ambition)
+- **Millionnaire.** Aide énormément de personnes dans leur business (coaching 1:1,
+  coaching de groupe, offres). **Aide les gens à s'enrichir / générer de l'argent**
+  et — selon leur mentalité — **à aider les autres grâce à cet argent.**
+- **Legacy / générosité** (⚠️ à manier avec pudeur, jamais en flex) :
+  - **Don pour qu'une connaissance ouvre un orphelinat.**
+  - **Création d'une fondation/association pour les femmes victimes de violences
+    (sexuelles ou non).**
+- **Maison achetée cash** + **propriétaire dans divers pays.**
+- **Voyage pour transmettre** → veut organiser des **retraites à l'étranger entre
+  femmes** : mélange kiff + travail intense — *« en 4 jours tu avances autant
+  qu'en 6 mois de labeur toute seule. »* (= future offre premium.)
+
+**Angles réels :** la vision "millionnaire qui fait le bien" · les retraites de
+travail entre femmes (teaser d'offre) · « je veux que tu t'enrichisses pour
+pouvoir aider les autres » (l'argent comme levier de sens).
+
+> ⏳ À COMPLÉTER (bloc H) : **H34** confirmer le programme de groupe (nom/cible/
+> transfo — "Décolle ta vie financière" ou variante entrepreneuses) · **H35** son
+> "pourquoi" profond.
+
+---
+
+## 📣 AVIS & PREUVES VANY'S WEDDINGS (recherche web)
+- **340+ couples accompagnés** (bio IG). ~15k abonnés IG.
+- **Avis récurrents (à réutiliser comme preuve, reformuler proprement) :**
+  *« organisation parfaite »* · *« décoration sensationnelle et gestion du jour J
+  incroyable »* · *« professionnelle du début à la fin »* · *« a apporté des
+  solutions et rassuré »* · *« décor magnifique »*.
+- Positionnement site : direction artistique, scénographie, logistique luxe,
+  conciergerie internationale, destination weddings.
+- **⭐ Elle applique DÉJÀ notre mécanique sur TikTok @vanysweddings** : mots-clés
+  en commentaire → appel gratuit → *« Commente ZEN »*, *« Commente AU TOP »*,
+  *« Commente MSO »*. (Le système keyword→appel est déjà maîtrisé, on le transpose
+  sur Vanie Choco.)
+- **Voix TikTok déjà clivante** : *« Tu donnes ton avis. Pas ta santé mentale. »* ·
+  *« 5 choses que je ferais si je voulais être stressée le jour de mon mariage »* ·
+  *« Ton mariage, tes règles. »*
+- Autre produit existant : **"La Mariée SUPER Organisée" (MSO)** — dispositif pour
+  les mariées sans wedding planner (logique de produit self-service).
+- Sources : instagram.com/vanysweddings · vanysweddings.com · tiktok.com/@vanysweddings
+  · mariages.net · secretdemariage.com
+
+**Angle réel :** « J'ai accompagné 340 mariages » = preuve d'autorité massive
+transposable ("je sais gérer, structurer, livrer sous pression").
 
 
 
