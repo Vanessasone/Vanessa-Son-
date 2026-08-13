@@ -521,8 +521,22 @@ dès le jour 1. Pas de qualité sans quantité d'abord. » → dégomme les gour
 reste » · « Des systèmes (avec ou sans IA) pour bosser moins » · « Fais-toi payer
 à ta valeur ou tu attireras les pires clients ».
 
-> ⏳ À COMPLÉTER (bloc E) : **E23** meilleur conseil business reçu + le conseil
-> ultra-répandu qu'elle trouve con.
+### E23. Conseils : le vrai vs le bidon
+- **Peu de conseils reçus** (mais suit pas mal d'entrepreneurs).
+- **Sa conviction :** *« arrête de croire que tout vient tout cru dans le bec.
+  Pour générer des millions, tu bosses un minimum »* (même s'il existe des
+  méthodes plus ou moins faciles).
+- **Préserver sa paix > l'argent :** refuse de signer un client **trop compliqué**
+  (appels/messages incessants, exige des réponses ultra-rapides) **même s'il est
+  riche.** *« La tranquillité, c'est mieux. J'en ai rien à foutre de son argent. »*
+- **Le conseil qui l'agace :** *« la qualité prime sur la quantité »* → **seulement
+  la moitié de l'équation** (cf. E20 : pas de qualité sans quantité d'abord).
+
+**Angle réel :** « Je refuse des clients riches. Voilà pourquoi. » (la paix comme
+luxe ultime, filtrer sur le comportement pas que le budget).
+
+---
+✅ **BLOC E COMPLET.**
 
 
 
