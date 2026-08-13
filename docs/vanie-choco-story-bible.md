@@ -594,8 +594,16 @@ révèle. »
 - Son combat : **« tout est possible — MAIS si tu t'en donnes les moyens. Ça ne
   tombe pas tout cru dans le bec. »**
 
-> ⏳ À COMPLÉTER (bloc F) : **F29** ses lignes rouges (sujets/mots à ne jamais
-> utiliser publiquement).
+### F29. LIGNES ROUGES (à respecter dans TOUT contenu)
+- 🕌 **Religion : musulmane — STRICTEMENT PRIVÉ. Ne jamais l'évoquer publiquement.**
+  (« ça me regarde ».) La **spiritualité générique / "l'Univers"** reste OK.
+- 🙅 **Politique : ne pas en parler** (ne s'y connaît pas, n'ira pas).
+- 👦 **Son fils : JAMAIS son visage.** De dos / silhouette OK. **Peut être nommé.**
+- 🤬 **Gros mots : elle assume tout** → aucun filtre nécessaire.
+- 👩 **Sa mère : peut être évoquée mais de façon ÉDULCORÉE / abstraite**, jamais en
+  règlement de comptes public.
+- 🚫 **Père de son fils :** garder hors sujet (elle ne veut pas en parler).
+- Aucun autre pan du passé tabou à ce stade.
 
 ---
 
@@ -649,6 +657,31 @@ plus au téléphone de peur des créanciers" · "vais-je pouvoir nourrir mon fil
 mois-ci" · "j'ai arrêté d'accuser l'État, c'était MES choix" (responsabilité
 radicale) · "danseuse sur tous les plateaux TV… et 20 000€ de dettes" (le paradoxe
 glamour/galère).
+
+---
+
+## BLOC G — Les preuves
+
+### G. Sa preuve n°1 = ELLE-MÊME
+- **630 000 €+ de CA** en exerçant **le métier le plus sous-coté du mariage** :
+  **seuls ~10 % des couples** font appel à un organisateur de mariage. → autorité
+  massive ("j'ai réussi là où le marché est minuscule").
+
+### G. Transformations clientes (à confirmer prénoms/consentement avant diffusion)
+- **Lucie (?) / "Luc"** : **ne signait aucun contrat depuis 10 mois.** Début du
+  coaching → **1er contrat signé en 2 semaines**, **2e contrat en 1 mois**, à un
+  **tarif plus élevé que ses objectifs de départ** (Vanessa a augmenté son prix
+  au-dessus de son objectif, et elle a signé quand même).
+- **Christelle** : a créé sa **boutique de robes de mariée**. Après **plusieurs
+  mois sans visites** (et des essayages qui n'aboutissaient jamais), → **en 1
+  semaine : 3 essayages + 3 robes vendues.**
+
+**Angles réels :** « J'ai fait 630k dans un métier que 90% des gens n'achètent
+même pas » · « Ma cliente ne signait rien depuis 10 mois → 2 contrats en 1 mois,
+plus chers que ses objectifs » · « De 0 visite à 3 ventes en 1 semaine ».
+
+> ⏳ À COMPLÉTER (bloc G) : **G31** le témoignage / message de cliente qui l'a le
+> plus émue (à citer). · **G32** autre preuve perso si besoin.
 
 
 
