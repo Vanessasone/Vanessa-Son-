@@ -425,9 +425,45 @@ Studio). Le succès sans structure = piège.
 def de la liberté financière, née du trauma) · « 1 an et demi sans voiture pour
 la racheter cash » (discipline > confort) · l'argent obsession né du manque.
 
-> ⏳ À COMPLÉTER (bloc D) : **D16** premier gros encaissement + ce que ça a changé ·
-> **D17** croyance argent défoncée · **D18** objectifs chiffrés Vanie Choco (mois) ·
-> **D19** ce qui la met en rage dans le rapport des femmes à leur argent.
+### D16. Les chiffres réels (preuve d'autorité)
+- **5 années de suite à ~six chiffres** : il y a 5 ans **97 000 €**, puis passage
+  au-dessus de 100k (101, 105, 110…), et **l'an dernier 630 000 €+ de CA.**
+- **Capture d'écran de compte à +90 000 €** dispo → très satisfaisant. (Asset
+  preuve pour les réels.)
+- **Ce que ça a changé dans sa tête :** *« tout est possible. »* Ne jamais croire
+  les gens qui disent "il n'y a pas d'argent / tu ne peux pas facturer ça / tu ne
+  peux pas faire ça". **Tout se fait : c'est une décision + les skills pour
+  exécuter.**
+
+### D17. La croyance défoncée (le plafond de verre maternel)
+> ⚠️ Ligne rouge mère : en **abstrait** uniquement, jamais nommée/exposée.
+- Ressent que sa mère (**inconsciemment**) **n'aime pas la voir gagner de
+  l'argent** : "tout va bien quand je galère", mais dès qu'elle a de l'argent →
+  embrouilles, demandes d'argent.
+- → Croyance inconsciente longtemps ancrée : **« si je gagne trop, ça ne plaira
+  pas à ma mère. »** Résultat : **schéma d'auto-sabotage** — après chaque grosse
+  rentrée, une période où elle gagnait **moins, voire presque plus.**
+
+### D19. Ce qui la met en RAGE
+- Les gens qui répètent **« il n'y a plus d'argent (en France / dans le monde) »**.
+  Faux : il y a de l'argent — ils ne **s'adressent pas aux bonnes personnes** ou
+  n'ont pas une **offre optimisée.**
+- *« On n'est pas obligé de rester clochard, ni de garder des clochards comme
+  clients. »*
+- **Constat clé :** *« les clients qui paient le moins en veulent toujours le
+  plus, et sont les plus chiants. J'en veux plus. »*
+
+**Angles réels (très clivants) :**
+- « Pourquoi tu t'auto-sabotes DÈS que tu commences à gagner » (le plafond de
+  verre familial/inconscient) — universel, émotionnel.
+- « Il n'y a pas de crise, il y a ton offre » (anti-"y'a plus d'argent").
+- « Tes pires clients sont ceux qui paient le moins » (filtrer par le prix).
+- Preuve : 630k€, 5 ans de 6 chiffres, screenshot +90k → autorité.
+
+> ⏳ D18 (à préciser) : **objectif chiffré spécifique Vanie Choco sur les 3
+> prochains mois** (coaching 1:1 + sprints). Cadre global connu = **1 M€/an**.
+> Proposition à valider : viser un palier mensuel coaching (ex. 20-30k€/mois) →
+> à confirmer avec elle.
 
 
 
