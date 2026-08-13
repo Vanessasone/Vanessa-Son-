@@ -478,6 +478,29 @@ conversion.
 ---
 ✅ **BLOC D COMPLET.**
 
+---
+
+## BLOC E — Sa méthode
+
+### E20. Le déclic : « pas de qualité sans quantité d'abord »
+- Elle prône **la qualité > la quantité**… **mais** : **il n'y a pas de qualité
+  tant qu'il n'y a pas eu de quantité d'abord.**
+- On ne peut pas prôner le premium quand on est **nouvelle** et qu'on n'a pas
+  encore bossé le terrain. D'où sa stratégie de départ en mariage : **pas cher →
+  volume max → se qualifier au fil de l'eau → prestations de plus en plus
+  qualitatives.**
+- **Aujourd'hui** elle préfère la qualité (moins de mariages, bien plus haut de
+  gamme) — mais **impossible à faire dès le début** sans connaître les tenants et
+  aboutissants du métier.
+
+**Angle réel (contrarian, casse un mythe) :** « Arrête de vouloir être premium
+dès le jour 1. Pas de qualité sans quantité d'abord. » → dégomme les gourous du
+"vends cher tout de suite", tout en légitimant sa propre montée en gamme.
+
+> ⏳ À COMPLÉTER (bloc E) : **E21** méthode en 3 piliers · **E22** ce qu'elle fait
+> que les autres coachs ne font pas · **E23** meilleur conseil business + conseil
+> répandu qu'elle trouve con.
+
 
 
 <!-- Réponses suivantes à ajouter au fur et à mesure : C13 → H35 -->
