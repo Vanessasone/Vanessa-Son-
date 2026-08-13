@@ -383,6 +383,22 @@ clivant, très vrai.
   sacrifie tout par amour"). Transposable en business (clients, associés toxiques).
 - « Je me protège avant tout » comme leçon de CEO.
 
+### C14 (complément). Père, confiance & burn-out
+- **Père jamais connu** (aucun souvenir). Conviction : **c'est le père qui donne à
+  une femme sa confiance en elle et son image d'elle-même** → a eu des **soucis de
+  confiance**, mais **a su reconnaître ses qualités assez vite.**
+- **Burn-out en 2022-2023** : avait lancé le **pôle décoration** de Vany's
+  Weddings et **vendu 58 mariages en 1 an** — mais faisait **toute la déco seule**
+  (installation/désinstallation). Ça + les problèmes perso (appartement/expulsion)
+  → **burn-out.** **A arrêté la déco depuis : "victime de mon succès."**
+- **Peines de cœur : énormément.** Scorpion, **entière** : "quand j'aime, j'aime
+  vraiment ; quand j'ai mal, j'ai vraiment mal."
+
+**Angle réel (business) :** « J'ai vendu 58 mariages en 1 an… et j'ai fait un
+burn-out parce que je faisais tout seule. » → preuve incarnée que **vendre sans
+systèmes ni délégation, ça te détruit** = cœur de son offre (Pareto, systèmes,
+Studio). Le succès sans structure = piège.
+
 ---
 ✅ **BLOC C COMPLET.**
 
