@@ -333,8 +333,30 @@ ambitieuse (dans son couple, son entourage) ».
 - « Mon fils l'a bien vécu parce que j'ai trouvé des solutions » = la résilience
   transmissible, le cœur du personnage.
 
-> ⏳ À COMPLÉTER (bloc C) : **C13** le moment où elle a voulu tout arrêter + ce qui
-> l'a retenue · **C14** blessure plus intime (famille/santé/mental/cœur).
+### C13. Le moment où elle a voulu tout arrêter (et pourquoi elle est restée)
+- **Profil de travail : "flemmarde" ET très grosse bosseuse.** Cherche toujours
+  les process qui simplifient, MAIS peut travailler des heures et des heures,
+  **adore travailler.**
+- Au fond du trou, elle envisage sérieusement de **quitter l'entrepreneuriat pour
+  un job salarié.** Problème : **jamais été salariée de sa vie.**
+- **CV = 3 lignes** : danseuse pro (28 ans), wedding planner, business coach →
+  **"aucun sens pour un employeur".** S'inscrit sur LinkedIn, répond à des annonces
+  → rien. Ne peut pas se permettre d'être caissière (mère seule d'un ado, besoin
+  d'un vrai revenu).
+- **Elle a baissé les bras à un moment** (c'était trop, dur de se battre, dur de
+  trouver des solutions). MAIS : **impossible de se replier sur un job "normal" —
+  personne ne voulait d'elle.**
+- **Ce qui l'a retenue = l'absence totale de plan B.** Trop indépendante (même en
+  danse, quasi-freelance : on accepte ou pas un contrat), **inembauchable** →
+  l'entrepreneuriat était **la seule issue.**
+
+**Angle réel (ultra puissant) :** « J'ai pas réussi parce que j'étais courageuse.
+J'ai réussi parce que j'avais AUCUNE porte de sortie — j'étais littéralement
+inembauchable. » → détruit le mythe du plan B, glorifie le "dos au mur". Très
+clivant, très vrai.
+
+> ⏳ À COMPLÉTER (bloc C) : **C14** blessure plus intime
+> (famille / santé / mental / cœur).
 
 <!-- Réponses suivantes à ajouter au fur et à mesure : C13 → H35 -->
 
