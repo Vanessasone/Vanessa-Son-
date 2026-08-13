@@ -12,19 +12,24 @@ MÉTAPHORE · 9 CTA · 10 HASHTAGS · 11 STATUT. *(+ OUTRO signature « bouge to
 
 ---
 
-## ÉPISODE 1
+## ÉPISODE 1 *(reframe : pro-argent + plafond de verre + twist abonnement)*
 1. **JOUR / N° :** Parlons Cash · Épisode 1
-2. **TITRE :** « Gagner beaucoup ne te met pas à l'abri »
+2. **TITRE :** « Ton plafond de verre a des points faibles »
 3. **INTRO DE SÉRIE :** « Bienvenue dans Parlons Cash — ici on parle d'argent sans filtre et sans tabou. »
-4. **HOOK :** *écran* « GAGNER PLUS NE TE SAUVERA PAS » · *verbal* « Tu crois qu'il te faut juste gagner plus pour être tranquille ? C'est le plus gros mensonge qu'on t'a vendu. »
-5. **RELATABILITÉ :** « Tu te dis "quand je gagnerai plus, je respirerai". Alors tu cours après le prochain palier, puis le suivant… et t'es jamais tranquille. »
-6. **CASSAGE DE CROYANCE :** « Gagner plus = la sécurité ? Faux. J'ai gagné jusqu'à 8 000 € par mois… et j'ai fini expulsée, avec mon fils. »
-7. **CONSEIL + STORYTELLING :** « Le problème c'est JAMAIS combien tu gagnes. C'est ce que tu fais avec. Gérer, garder, faire durer — c'est ça qui met à l'abri, pas le chiffre en haut de la facture. »
-8. **MÉTAPHORE :** « Gagner plus sans système, c'est remplir une baignoire sans bouchon : tu verses, tu verses… et elle est toujours vide. »
-9. **CTA (save) :** « Enregistre ce réel et relis-le la prochaine fois que tu te dis "il me faut juste plus". »
-10. **HASHTAGS :** #parlonscash #argent #entrepreneuse #libertéfinancière #mindsetargent
+4. **HOOK :** *écran* « TON PLAFOND DE VERRE N'EST PAS DANS TA TÊTE » · *verbal* « Le problème, c'est pas que tu gagnes pas assez. C'est que personne t'a appris à faire péter ton plafond. »
+5. **RELATABILITÉ :** « T'es une femme qui bosse dur, qui a du talent. Et pourtant tu plafonnes toujours autour du même montant, comme s'il y avait une limite invisible au-dessus de ta tête. »
+6. **CASSAGE DE CROYANCE :** « On va te dire "vise plus haut, bosse plus, sois motivée". Mais bosser plus fort SOUS ton plafond, c'est t'épuiser à taper contre une vitre. Le problème, c'est pas ton ambition. »
+7. **CONSEIL + STORYTELLING :** « Ce qui fait sauter ce plafond, c'est 3-4 trucs PRÉCIS : ta posture, tes prix, tes systèmes, ton rapport à l'argent. Moi j'ai pas fait 630 000 € en bossant plus dur — j'ai bossé DIFFÉREMMENT. Et toi aussi tu peux gagner beaucoup plus, sans t'épuiser davantage. »
+8. **MÉTAPHORE :** « Ton plafond de verre, c'est comme une vitre : elle a l'air solide… mais quand tu sais exactement où frapper, elle explose. »
+9. **CTA (abonnement/twist) :** « Ces points de rupture, je te les montre un par un. Abonne-toi — sur ce compte, on gagne plus et on brise le plafond, brique par brique. »
+10. **HASHTAGS :** #parlonscash #plafonddeverre #femmesetargent #ambitionféminine #scalerbusiness
 11. **STATUT :** 🟣 En attente
 - **OUTRO :** « Allez… bouge ton boule. 🍑 »
+
+> Note d'angle : PRO-gagner-plus. L'ennemi = le plafond de verre + « gagner une fois
+> puis tout reperdre », JAMAIS « vouloir de l'argent ». La preuve 8k→SDF peut être
+> réutilisée ailleurs, mais sa LEÇON devient « gagne plus ET apprends à garder +
+> scaler », pas « l'argent ne sauve pas ».
 
 ---
 
