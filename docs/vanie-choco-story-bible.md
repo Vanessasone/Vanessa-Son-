@@ -460,10 +460,23 @@ la racheter cash » (discipline > confort) · l'argent obsession né du manque.
 - « Tes pires clients sont ceux qui paient le moins » (filtrer par le prix).
 - Preuve : 630k€, 5 ans de 6 chiffres, screenshot +90k → autorité.
 
-> ⏳ D18 (à préciser) : **objectif chiffré spécifique Vanie Choco sur les 3
-> prochains mois** (coaching 1:1 + sprints). Cadre global connu = **1 M€/an**.
-> Proposition à valider : viser un palier mensuel coaching (ex. 20-30k€/mois) →
-> à confirmer avec elle.
+### D18. Objectif chiffré Vanie Choco (VALIDÉ)
+- **Objectif : 100 000 € en 3 mois max.**
+- **2 offres coaching réelles (prix confirmés) :**
+  - **Coaching "accessible" : 3 800 €** → **moteur de volume** (tout le monde n'a
+    pas 8 900 à investir). C'est celui qu'elle vendra le plus.
+  - **Coaching "premium" : 8 900 €.**
+- **Math (la sienne) :** 20 coachings ≈ **76 000 €** · **30 coachings ≈ ~100 000 €
+  facile.** → cadence cible ≈ **10 signatures/mois**, majorité sur le 3 800 €.
+- Cadre global : **1 M€/an** (toutes marques).
+
+**Implication contenu :** écrire pour faire **réserver des appels → signer ~10
+coachings/mois**, majoritairement le 3 800 €, avec le 8 900 € en montée de gamme.
+Le CTA "appel Déclic" reste central ; le 3 800 € = offre héros des réels de
+conversion.
+
+---
+✅ **BLOC D COMPLET.**
 
 
 
