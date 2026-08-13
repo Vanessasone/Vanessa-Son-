@@ -242,8 +242,25 @@ déjà aux autres → j'ai compris que j'étais l'experte. » (légitimité + hu
 visibilité » (réel argent/posture ultra fort) · lancer en parallèle sans filet =
 anti-"quitte tout d'un coup" · investisseuse immo en parallèle = autorité argent.
 
-> ⏳ À COMPLÉTER (bloc B) : **les réactions de l'entourage** quand elle a changé
-> de voie (phrases de soutien et surtout phrases qui piquent).
+### B9. Les réactions de l'entourage
+- Accueil "plus ou moins bien". **Elle est secrète de base** → peu d'exposition.
+- **Copain de l'époque** (celui qui l'avait pourtant poussée vers le mariage) :
+  *« T'es déjà pas là pour la danse, tu vas en plus pas être là pour le
+  mariage. »* → reproche pénible = le **prix caché de l'ambition** dans le couple.
+- Quand elle arrête totalement la danse : **elle est déjà seule** (célibataire).
+  Peu de vraies réactions, surtout des *« T'es sûre ? Ça fait longtemps que tu
+  danses, t'es installée… »*
+- **Le vrai scepticisme est venu de l'AMBITION, pas du changement de voie** :
+  - Sur ses **achats d'appartements**.
+  - Puis quand elle a **visé plus grand / des prix plus élevés** : *« Tes
+    prestations vont être trop chères, tu vas pas trouver de clients, ça va être
+    compliqué, comment tu vas faire ? T'as pas de soupape de sécurité. »*
+    (Elle est indépendante : pas de CA = zéro revenu.)
+
+**Angle réel en OR :** « On m'a dit que je vendrais jamais à ce prix. Aujourd'hui
+je facture 20 000 € un mariage. » = revanche par la preuve, anti-"sois
+raisonnable", ultra clivant + argent. · « Le prix qu'on paie quand on est
+ambitieuse (dans son couple, son entourage) ».
 
 ---
 
