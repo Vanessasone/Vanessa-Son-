@@ -555,8 +555,30 @@ luxe ultime, filtrer sur le comportement pas que le budget).
 6. **« La sécurité de l'emploi est une illusion ; le vrai risque = dépendre d'un
    seul salaire »** → 👍 extrême.
 
-> ⏳ À COMPLÉTER (bloc F) : réactions #7 → #15 · **F27** ses punchlines/gros mots
-> réels · **F25** son ennemi (discours à détruire) · **F29** ses lignes rouges.
+7. **« Les femmes sous-facturent par peur de déranger, pas par manque de
+   compétence »** → 👍 total.
+8. **« Pas besoin de plus d'abonnés, besoin de meilleurs clients »** → 🤏 nuance :
+   d'accord, MAIS plus d'abonnés = clients plus faciles → **d'où le système
+   d'acquisition** pour attirer les clients (souvent des abonnés).
+9. **« Le confort, c'est là où les rêves meurent »** → 👍.
+10. **« Si ton entourage comprend tes objectifs, ils sont trop petits »** → 👍,
+    **sauf si l'entourage est composé d'entrepreneurs** (là ça se comprend).
+11. **« L'argent ne change pas les gens, il les révèle »** → 👍 **C'EST SA DEVISE.**
+    ⭐ Phrase signature récurrente.
+12. **« Déléguer n'est pas un luxe de riche, c'est ce qui te rend riche »** → 👍
+    (y contribue).
+13. **« Personne ne viendra te sauver : ni l'État, ni un mec, ni la chance »** → 👍
+    total.
+14. **« Se faire coacher n'est pas une dépense, c'est un investissement »** → 👍.
+    Un coaching fait généralement **grandir ton business / tes prestations.**
+15. *(à re-confirmer — probablement 👍)* « Tes excuses te coûtent plus cher que
+    n'importe quel coaching. »
+
+⭐ **PHRASE SIGNATURE CONFIRMÉE :** « L'argent ne change pas les gens, il les
+révèle. »
+
+> ⏳ À COMPLÉTER (bloc F) : **F27** ses punchlines/gros mots réels · **F25** son
+> ennemi (discours à détruire) · **F29** ses lignes rouges · (confirmer #15).
 
 
 
