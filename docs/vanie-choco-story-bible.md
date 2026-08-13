@@ -66,5 +66,30 @@ discipline de la danse classique détestée mais tenue 7 ans · gagner gros trè
 jeune sans savoir gérer → le rapport à l'argent qui se joue là · la danse comme
 lien fusionnel avec Bruce / substitut familial.
 
-<!-- Réponses suivantes à ajouter au fur et à mesure : A3 → H35 -->
+### A2/A3 (suite). Ce que la danse représentait + parcours
+- **Une facilité, pas une passion.** Contraste fort avec Bruce (lui passionné,
+  s'entraînait des heures ; elle : grosses facilités naturelles, douée sans
+  forcer). Métier exercé **~28 ans**.
+- **Quête de reconnaissance** probable à l'époque. **Premier clip à 14 ans**,
+  diffusé **tous les matins sur TF1** → camarades de lycée : « je t'ai vue à la
+  télé ce matin ». Sentiment cool / valorisant.
+- **Spécialités : hip-hop, salsa, samba.** Touchait à tout (dancehall, afro…)
+  **sauf classique** (détesté) et **oriental** (pas aimée / pas douée).
+- **Danseuse pluridisciplinaire rare — voire la seule de son époque.** Capable de
+  graviter entre TOUS les milieux de la danse (hip-hop old school popping/locking,
+  new style, moderne, classique, latines…), cloisonnés entre eux.
+- Exemple de polyvalence : une semaine plateaux TV / concerts d'artistes, la
+  suivante congrès international à Milan, la suivante show brésilien pour un CE
+  dans une compagnie 100 % brésilienne.
+
+**Angle réel majeur :** « douée sans être passionnée » → la facilité comme piège
+ET comme force · la **polyvalence** comme avantage déloyal (métaphore business :
+s'adapter à tous les terrains > travailler plus dur) · la reconnaissance télé
+précoce.
+
+> ⏳ À COMPLÉTER (bloc A) : le **meilleur** souvenir précis (scène/frisson) et le
+> **pire** souvenir précis (blessure/humiliation/trahison) — pas encore donnés.
+
+<!-- Réponses suivantes à ajouter au fur et à mesure : A3(bis) → H35 -->
+
 
