@@ -130,9 +130,86 @@ précoce.
 
 ---
 
-## BLOC B — La bascule (danse → business) *(à venir)*
+## BLOC B — La bascule (danse → business)
 
-<!-- Réponses suivantes à ajouter au fur et à mesure : B6 → H35 -->
+### Le fond du trou → la sortie
+- **~1 an d'apitoiement**, période très dure. Donne encore des cours (un peu de
+  revenu pour le fils, insuffisant). **Dettes** : loyer, parcmètre/parking voiture
+  → amendes, etc.
+- Déclic : **« Je ne peux pas faire ça à mon fils. »**
+
+### L'association (créer son propre travail)
+- **Crée une association.** Demande une salle à la mairie, donne des cours. Puis
+  la développe : **embauche d'autres profs**, place des **ateliers périscolaires**
+  (les siens + ceux d'autres intervenants). Offre artistique & sportive :
+  capoeira, peinture, photo, etc.
+- **But : créer son propre travail, ne dépendre de personne, en vivre.** Revenus
+  commencent à remonter. Quelques années comme ça.
+
+### L'événementiel (préparer l'après-danse)
+- Commence à **organiser des événements** pour de grosses entités : **Caisse
+  d'Épargne, CAF**, grosses sociétés. Anticipe que la danse s'arrêtera. Très bons
+  retours.
+
+### Le déclic mariage (Brésil, ~2016)
+- Voyage au **Brésil avec son copain de l'époque**. Lui : *« Tu fais des events
+  de ouf, t'es la personne la plus romantique que je connaisse — pourquoi tu ne
+  fais pas de mariages ? »* Elle n'y avait **jamais** pensé.
+- Rentre déterminée à devenir **wedding planner**. Étudie comme une acharnée
+  (autodidacte), puis **paie une formation décevante** (la formatrice en savait
+  moins qu'elle). Paradoxe fondateur : *« si ELLE est lancée et forme des gens,
+  alors moi aussi je peux me lancer. »*
+
+### Le lancement wedding (la technique de vente honnête)
+- Se lance vers **avril**, **vend ses 3 premiers mariages la 1re année.** Petits
+  budgets, pas prestigieux.
+- **Technique de vente (honnêteté radicale)** : *« Je suis nouvelle, je vais
+  faire les mêmes erreurs que vous feriez — sauf que vous, vous n'avez rien à
+  faire, et moi je répare mes erreurs. Comme je débute, je ne suis pas chère :
+  c'est mon moyen de pratiquer. »* Cible : couples petit budget, sans temps ni
+  envie de s'en occuper.
+- **Augmente ses tarifs au fur et à mesure que ses compétences montent.**
+
+### Aujourd'hui : Vany's Weddings (10 ans d'expérience)
+- **Wedding planner haut de gamme / luxe.** Marque : **Vany's Weddings**
+  (vany's = Vanessa). Petite équipe.
+- **2 offres :** **Studio 10 000 €** (c'est son équipe qui exécute) · **Couture
+  20 000 €** (elle organise, 3 personnes/mariage le jour J).
+- **Tickets d'entrée mariage :** Couture = budget mariage **min 100 000 €** (hors
+  honoraires) · Studio = **min 80 000 €**.
+- 📊 **Benchmark marché (vérifié) :** wedding planner FR, organisation complète
+  ≈ **2 900–4 000 €** (fourchette ~800–7 500). → **Elle est 3 à 7× au-dessus du
+  marché.** Argument d'autorité "je vends cher, j'assume".
+- **Une des wedding planners les plus suivies en France** (~**17k abonnés IG** ;
+  modeste en absolu mais fort pour une niche **non pérenne** — une fois mariés,
+  les gens se désabonnent).
+
+### Ce qui la rend coach (l'ADN transmission)
+- Constat : **beaucoup de gens galèrent à vendre leur prestation/service.**
+- **Elle ADORE transmettre / aider.** Ne supporte pas de voir quelqu'un dans un
+  **"job alimentaire"** → cherche toujours la passion des gens + des idées pour en
+  vivre & être plus heureux. "J'ai eu plusieurs vies."
+- **Skills qu'elle a développés et qu'elle transmet :** communiquer sur les
+  réseaux · **vendre** ses services ("savoir faire ne sert à rien si on ne sait
+  pas vendre") · créer un **parcours client fluide** · **flemmarde assumée →
+  Pareto 80/20 : travailler le moins possible en gagnant le plus.** L'offre Studio
+  incarne ça (l'équipe bosse, elle : ~1 RDV/sem, paie les prestas, garde la marge).
+
+**Angles réels majeurs :**
+- « Créer mon propre taf pour ne dépendre de personne » (l'asso) = posture
+  entrepreneuriale née de la nécessité.
+- La **vente par l'honnêteté** quand on débute → anti-imposture, très inspirant.
+- **3 à 7× le prix du marché** → autorité prix / argent.
+- La **flemmarde stratégique** (Pareto, gagner plus en bossant moins) = son
+  positionnement le plus différenciant et le plus vendeur pour l'audience business.
+- « Je ne supporte pas les jobs alimentaires » = son *why* de coach.
+
+---
+
+## BLOC C — Le côté sombre *(à venir)*
+
+<!-- Réponses suivantes à ajouter au fur et à mesure : C10 → H35 -->
+
 
 
 
