@@ -4,14 +4,11 @@
 > Décisions validées : cohorte 3 mois · promesse mixte (chiffré + transformation +
 > posture) · 990 € au lancement puis 1 490 €.
 
-## Nom (à valider)
-⚠️ « LE CERCLE » écarté : trop pris (Le Cercle des Patronnes, Le Cercle Business…).
-Shortlist badass & ownable (à choisir) :
-- **SANS PLAFOND** *(reco — mission "briser le plafond de verre", positif, ownable)*
-- **OVERBOOKÉE** *(ton propre objectif, joueur, très "toi")*
-- **L'EMPIRE** *(lien avec le feuilleton "De la scène à l'empire", ambitieux)*
-- **LES INTOUCHABLES** *(exclusif, communauté badass)*
-- **SIX CHIFFRES** *(aspirationnel/chiffré)*
+## Nom — ✅ VALIDÉ : « LES INTOUCHABLES »
+Club badass, exclusif, mémorable. Libre dans le créneau coaching/mastermind
+(vérifié). Positionnement : *le cercle des femmes qui ne se laissent plus arrêter
+par rien — ni par leur plafond, ni par les autres, ni par elles-mêmes.*
+(« Le Cercle » écarté : trop pris.)
 
 ## Pour qui
 Femmes entrepreneuses — coachs, thérapeutes, freelances, prestataires, créatrices —
