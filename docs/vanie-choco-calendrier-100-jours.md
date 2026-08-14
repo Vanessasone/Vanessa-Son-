@@ -7,25 +7,29 @@
 > Format fusion (3 hooks + corps d'une traite) + outro « bouge ton boule ».
 
 ## TRACK A — les 100 scripts PILIERS (le matin)
-Rotation hebdo 7j/7 (publication tous les jours, week-ends inclus) — **les 6 piliers
-couverts chaque semaine** :
+**7 PILIERS = 7 JOURS** (publication 7j/7, un pilier par jour) :
 
-| Jour | Flux | But | CTA type |
+| Jour | Pilier | But | CTA type |
 |---|---|---|---|
-| Lun | 🔥 Parlons Cash | Autorité/argent | Save / mot-clé |
-| Mar | 💥 Vérités qui piquent | Reach/débat | Partage / débat |
+| Lun | 🔥 Parlons Cash (argent/business) | Autorité/argent | Save / mot-clé |
+| Mar | 💥 Vérités qui piquent (mindset) | Reach/débat | Partage / débat |
 | Mer | 🤖 IA (flemmardes ambitieuses) | Reach + lead | Commente IA |
-| Jeu | 🎬 Histoire (feuilleton) | Attachement | Abonne |
+| Jeu | 🎬 Histoire & coulisses (feuilleton) | Attachement | Abonne |
 | Ven | 💰 Conversion | Booking | Commente CLICK |
 | Sam | 🏆 Preuve | Désir | Commente / CLICK |
-| Dim | 🔥 Parlons Cash *(ou 🤖 IA)* | Moteur en + | Save / IA |
+| Dim | 🧠 La Méthode (acronymes : F.I.L.T.R.E, C.A.S.H, 5 Décisions…) | Autorité/branding | Mot-clé |
 
-**Variante (au choix) :** doubler un pilier de croissance (Parlons Cash/IA) et
-**alterner Preuve ↔ Conversion une semaine sur deux** au lieu de les faire chaque semaine.
+**Variante (au choix) :** si tu veux doubler un pilier de croissance (Parlons Cash/IA),
+**alterner Preuve ↔ Conversion une semaine sur deux** (1 semaine l'un, la suivante l'autre).
 
-**Totaux indicatifs sur 100 jours (Track A) :** Parlons Cash ~24 · IA ~18 · Vérités ~14 ·
-Histoire ~14 · Preuve ~14 · Conversion ~14. *(Ratios ajustables ; Conversion monte
-en Mois 3.)*
+**Totaux indicatifs sur 100 jours (Track A ≈ 14 semaines) :** ~14 par pilier
+(Parlons Cash, Vérités, IA, Histoire, Conversion, Preuve, La Méthode). Conversion
+monte en Mois 3. *(Ratios ajustables.)*
+
+> ⚠️ Correction : la Vague 1 déjà écrite (J1-10) ne suivait pas encore ces 7 piliers
+> (il manquait **La Méthode** et **Conversion**). Ses 10 scripts restent utilisables ;
+> à partir de la Vague 2, on suit la rotation 7 piliers ci-dessus, et on rattrape
+> La Méthode + Conversion dès les premiers jours.
 
 ## TRACK B — les 100 scripts LAUNCH (le soir) = la rampe de lancement
 Les 100 scripts de Tumi sont **étagés**. Étalés sur 100 jours, ils forment une rampe
