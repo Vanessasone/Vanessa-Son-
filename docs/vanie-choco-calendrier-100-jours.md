@@ -7,21 +7,25 @@
 > Format fusion (3 hooks + corps d'une traite) + outro « bouge ton boule ».
 
 ## TRACK A — les 100 scripts PILIERS (le matin)
-Rotation hebdo (répétée ~14×), pour couvrir tous les piliers + faire de l'IA un moteur d'abonnés :
+Rotation hebdo 7j/7 (publication tous les jours, week-ends inclus) — **les 6 piliers
+couverts chaque semaine** :
 
-| Jour du cycle | Flux | But | CTA type |
+| Jour | Flux | But | CTA type |
 |---|---|---|---|
-| 1 | 🔥 Parlons Cash | Autorité/argent | Save / mot-clé |
-| 2 | 💥 Vérités qui piquent | Reach/débat | Partage / débat |
-| 3 | 🤖 IA (flemmardes ambitieuses) | Reach + lead | Commente IA |
-| 4 | 🎬 Histoire (feuilleton) | Attachement | Abonne |
-| 5 | 🔥 Parlons Cash | Autorité/argent | Save / mot-clé |
-| 6 | 🏆 Preuve | Désir | Commente / CLICK |
-| 7 | 🤖 IA | Reach + lead | Commente IA |
+| Lun | 🔥 Parlons Cash | Autorité/argent | Save / mot-clé |
+| Mar | 💥 Vérités qui piquent | Reach/débat | Partage / débat |
+| Mer | 🤖 IA (flemmardes ambitieuses) | Reach + lead | Commente IA |
+| Jeu | 🎬 Histoire (feuilleton) | Attachement | Abonne |
+| Ven | 💰 Conversion | Booking | Commente CLICK |
+| Sam | 🏆 Preuve | Désir | Commente / CLICK |
+| Dim | 🔥 Parlons Cash *(ou 🤖 IA)* | Moteur en + | Save / IA |
 
-**Totaux visés sur 100 jours (Track A) :** Parlons Cash ~28 · IA ~26 · Vérités ~14 ·
-Histoire ~14 · Preuve ~14 · (Conversion pilier 5 = surtout via Track B + montée en M3).
-*(Ratios ajustables ; l'IA et Parlons Cash sont volontairement les plus gros = croissance + autorité.)*
+**Variante (au choix) :** doubler un pilier de croissance (Parlons Cash/IA) et
+**alterner Preuve ↔ Conversion une semaine sur deux** au lieu de les faire chaque semaine.
+
+**Totaux indicatifs sur 100 jours (Track A) :** Parlons Cash ~24 · IA ~18 · Vérités ~14 ·
+Histoire ~14 · Preuve ~14 · Conversion ~14. *(Ratios ajustables ; Conversion monte
+en Mois 3.)*
 
 ## TRACK B — les 100 scripts LAUNCH (le soir) = la rampe de lancement
 Les 100 scripts de Tumi sont **étagés**. Étalés sur 100 jours, ils forment une rampe
