@@ -5,9 +5,13 @@
 > posture) · 990 € au lancement puis 1 490 €.
 
 ## Nom (à valider)
-- **Reco : « LE CERCLE »** — inclusif (communauté + cohorte), badass, mémorable.
-- Alternatives : **« SIX CHIFFRES »** (aspirationnel, chiffré) · **« MAGNÉTIQUE »**
-  (offre/business magnétique).
+⚠️ « LE CERCLE » écarté : trop pris (Le Cercle des Patronnes, Le Cercle Business…).
+Shortlist badass & ownable (à choisir) :
+- **SANS PLAFOND** *(reco — mission "briser le plafond de verre", positif, ownable)*
+- **OVERBOOKÉE** *(ton propre objectif, joueur, très "toi")*
+- **L'EMPIRE** *(lien avec le feuilleton "De la scène à l'empire", ambitieux)*
+- **LES INTOUCHABLES** *(exclusif, communauté badass)*
+- **SIX CHIFFRES** *(aspirationnel/chiffré)*
 
 ## Pour qui
 Femmes entrepreneuses — coachs, thérapeutes, freelances, prestataires, créatrices —
@@ -45,13 +49,15 @@ qui assume ses ambitions. »*
 - 🎁 Bibliothèque de **prompts IA** (contenu, vente, systèmes)
 - 🎁 Les **scripts de vente C.Œ.U.R**
 - 🎁 Le **Guide des 5 Décisions**
-- 🎁 (Early-bird) **1 appel 1:1** de démarrage avec toi
 
-## Prix
-- **Lancement (cohorte 1 / early-bird) : 990 €** (ou 3× 350 €)
-- **Puis : 1 490 €** (ou 3× 530 €)
+## Prix (2 paliers)
+- **EARLY BIRD — les 30 premières : 990 €** (ou 3× 350 €) **+ 1 appel 1:1 de
+  démarrage avec Vanessa** (le vrai différenciateur : accès direct à toi).
+- **LANCEMENT NORMAL (après les 30) : 1 490 €** (ou 3× 530 €), **sans l'appel 1:1**.
 - **Ancrage :** ton coaching 1:1 est à 3 800 € → le groupe est le "raccourci
   accessible" vers la même méthode.
+- **Le levier d'urgence n°1 :** l'appel 1:1 + le tarif 990 € **disparaissent après
+  la 30e inscrite.** Raison d'agir MAINTENANT.
 
 ## Garantie (pour vendre facilement)
 **« Satisfaite ou remboursée après le 1er appel »** : si après le premier appel de
