@@ -1,7 +1,7 @@
-# VANIE CHOCO — TRACK B (LAUNCH) · Vague 1 · Stage 1 (Pré-lancement)
+# VANY CHOCO — TRACK B (LAUNCH) · Vague 1 · Stage 1 (Pré-lancement)
 
 > Les 4 scripts Stage 1 du bundle Tumi, ADAPTÉS à l'offre LES INTOUCHABLES + à la
-> voix Vanie Choco (mais on garde l'énergie SOFT/curieuse de Tumi pour le
+> voix Vany Choco (mais on garde l'énergie SOFT/curieuse de Tumi pour le
 > pré-lancement — pas encore de claque, on plante la graine).
 > Mot-clé liste VIP : **INTOUCHABLES** (ManyChat) · Objectif : remplir la liste VIP.
 > ⚠️ Drive ne renvoie que les scripts 1-4 : la suite (Stages 2-4) sera reconstruite

@@ -1,9 +1,9 @@
-# VANIE CHOCO — Stratégie de contenu Reels · 3 mois
+# VANY CHOCO — Stratégie de contenu Reels · 3 mois
 
 > **Objectif business :** être **overbookée en coaching individuel maintenant**
 > (cash rapide) tout en **amorçant le programme de groupe** à lancer dans 3 mois.
 > **Rythme :** 5 reels / semaine, majoritairement scriptés en face cam.
-> **Voix :** Vanessa « Vanie Choco » — la meilleure amie bienveillante qui te
+> **Voix :** Vanessa « Vany Choco » — la meilleure amie bienveillante qui te
 > balance tes vérités. Cash, drôle, tendre, gros mots assumés. **Jamais lisse.**
 
 ---
@@ -74,7 +74,7 @@ travailleuse, mais elle **plafonne**.
 
 ---
 
-## 3. La VOIX Vanie Choco — Ton arme secrète
+## 3. La VOIX Vany Choco — Ton arme secrète
 
 C'est LE point qui fait tomber amoureux. On ne l'édulcore pas.
 

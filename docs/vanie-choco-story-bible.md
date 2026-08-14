@@ -1,4 +1,4 @@
-# VANIE CHOCO — Story Bible (matière brute pour les réels)
+# VANY CHOCO — Story Bible (matière brute pour les réels)
 
 > Réponses de Vanessa à l'interrogatoire storytelling. Matière première pour
 > écrire des réels clivants adossés à son vécu réel. **Ne pas diffuser tel quel** —
@@ -460,7 +460,7 @@ la racheter cash » (discipline > confort) · l'argent obsession né du manque.
 - « Tes pires clients sont ceux qui paient le moins » (filtrer par le prix).
 - Preuve : 630k€, 5 ans de 6 chiffres, screenshot +90k → autorité.
 
-### D18. Objectif chiffré Vanie Choco (VALIDÉ)
+### D18. Objectif chiffré Vany Choco (VALIDÉ)
 - **Objectif : 100 000 € en 3 mois max.**
 - **2 offres coaching réelles (prix confirmés) :**
   - **Coaching "accessible" : 3 800 €** → **moteur de volume** (tout le monde n'a
@@ -649,7 +649,7 @@ révèle. »
   décrit dans le livre : aider les gens **déterminés à se libérer de leurs dettes
   et à construire sécurité + liberté financière.**
 - 👉 **Candidat idéal pour le programme de groupe à lancer au Mois 3** (à adapter à
-  l'audience Vanie Choco : entrepreneuses). À valider avec elle (thème dettes/
+  l'audience Vany Choco : entrepreneuses). À valider avec elle (thème dettes/
   argent vs business pur).
 
 **Angles réels tirés du livre :** le mantra "tout déchirer" · "je ne répondais
@@ -747,7 +747,7 @@ pouvoir aider les autres » (l'argent comme levier de sens).
 - **⭐ Elle applique DÉJÀ notre mécanique sur TikTok @vanysweddings** : mots-clés
   en commentaire → appel gratuit → *« Commente ZEN »*, *« Commente AU TOP »*,
   *« Commente MSO »*. (Le système keyword→appel est déjà maîtrisé, on le transpose
-  sur Vanie Choco.)
+  sur Vany Choco.)
 - **Voix TikTok déjà clivante** : *« Tu donnes ton avis. Pas ta santé mentale. »* ·
   *« 5 choses que je ferais si je voulais être stressée le jour de mon mariage »* ·
   *« Ton mariage, tes règles. »*

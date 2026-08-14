@@ -1,13 +1,15 @@
-# VANIE CHOCO — TRACK A : les 100 scripts PILIERS (COMPLET ✅)
+# VANY CHOCO — TRACK A : les 100 scripts PILIERS (COMPLET ✅)
 
 > Les 100 scripts « piliers » (contenu de valeur / reach / autorité) sont
-> **terminés** et vivent dans l'artefact **Playbook Vanie Choco** :
+> **terminés** et vivent dans l'artefact **Playbook Vany Choco** :
 > https://claude.ai/code/artifact/1f0ba4ef-3065-4b9b-92f2-aeb19f3b9e23
 >
 > Format **fusion** pour chaque script : 3 hooks (claque) → corps d'une traite
-> (miroir → cassage de croyance en 2 temps → vérité + preuve) → **🔑 L'image à
-> marteler** (analogie/métaphore dédiée et visible) → CTA adapté au but →
-> outro « bouge ton boule » 🍑.
+> (miroir → cassage de croyance en 2 temps → vérité + preuve, avec **l'image-choc
+> — analogie/métaphore — fondue dans le corps, pile là où on la prononce** pour un
+> tournage express en une seule lecture) → CTA adapté au but → outro « bouge ton
+> boule » 🍑. L'image est **reprise en highlight** juste sous le corps, comme
+> simple rappel de tournage (la ligne à appuyer face cam).
 
 ## Répartition finale (100 / 100)
 

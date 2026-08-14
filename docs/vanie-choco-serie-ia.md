@@ -1,9 +1,9 @@
-# VANIE CHOCO — La série IA (style Mariah Brunner)
+# VANY CHOCO — La série IA (style Mariah Brunner)
 
 > Inspirée de Mariah Brunner (@itsmariahbrunner / learnaiwithmariah.com) : apprendre
 > aux NON-TECH à utiliser l'IA pour bosser moins, automatiser, gagner plus — du
 > CONCRET, no-fluff, un cas d'usage par réel + un prompt/guide gratuit en lead
-> magnet. On y ajoute la personnalité clivante Vanie Choco + la cible femmes entrepreneures.
+> magnet. On y ajoute la personnalité clivante Vany Choco + la cible femmes entrepreneures.
 > Objectif clé : c'est LE moteur de reach/abonnés (Mariah : 160k en 4 mois).
 
 ## 🎯 Mission de la série
@@ -63,5 +63,5 @@ de Mariah = moteur d'abonnés + leads). Alterner avec save/partage sur les épis
 - 💰 « L'IA a trouvé 3 façons d'augmenter mes prix (je te les donne) »
 
 ---
-*Série IA — style Mariah Brunner + voix Vanie Choco. Slot conseillé : le mercredi
+*Série IA — style Mariah Brunner + voix Vany Choco. Slot conseillé : le mercredi
 (voir plan 3 mois). Format fusion + outro « bouge ton boule ».*
